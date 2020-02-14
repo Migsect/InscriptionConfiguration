@@ -1,0 +1,66 @@
+attributes:
+  damage_reduction_melee:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_MELEE
+    descriptor: Parrying
+    min-reduction: 0.10
+    max-reduction: 0.20
+    rarity-multiplier: 0.25
+    target-damage: melee
+    target-materials: anything
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_reduction_projectile:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_PROJECTILE
+    descriptor: Deflecting
+    min-reduction: 0.10
+    max-reduction: 0.20
+    rarity-multiplier: 0.25
+    target-damage: projectile
+    target-materials: anything
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_reduction_explosion:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_EXPLOSION
+    descriptor: Deflecting
+    min-reduction: 0.10
+    max-reduction: 0.20
+    rarity-multiplier: 0.25
+    target-damage: explosion
+    target-materials: anything
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5
+  damage_reduction_falling:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_FALLING
+    descriptor: Cushioning
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: collision
+    target-materials: leather-armor
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  damage_reduction_heat:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_HEAT
+    descriptor: Incombustible
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: heat
+    target-materials: golden-armor
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5

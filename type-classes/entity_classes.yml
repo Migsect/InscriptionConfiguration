@@ -1,0 +1,50 @@
+entity-classes:
+  all:
+    name: creatures
+    inherited:
+     - GLOBAL_LIVING
+  undead:
+    name: undead
+    entities: 
+     - ZOMBIE
+     - SKELETON
+     - PIG_ZOMBIE
+     - WITHER
+     - GHAST
+  beast:
+    name: beasts
+    entities:
+     - SPIDER
+     - CAVE_SPIDER
+     - CHICKEN
+     - ENDER_DRAGON
+     - ENDERMITE
+     - SILVERFISH
+     - COW
+     - PIG
+     - SHEEP
+     - OCELOT
+     - WOLF
+     - SQUID
+     - RABBIT
+  elemental:
+    name: elementals
+    entities:
+     - CREEPER
+     - BLAZE
+     - ENDERMAN
+     - MAGMA_CUBE
+     - SLIME
+     - IRON_GOLEM
+     - SNOWMAN
+  denizen:
+    name: denizens
+    entities:
+     - WITCH
+     - VILLAGER
+     - PLAYER
+  bosses:
+    name: bosses
+    entities:
+     - ENDER_DRAGON
+     - WITHER

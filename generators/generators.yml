@@ -1,0 +1,146 @@
+generators:
+  test_generator:
+    type-name: "GENERATOR_TEST"
+    display-name: "Test"
+    min-level: 1
+    max-level: 100
+    elements:
+      AIR: 10
+      FIRE: 10
+      EARTH: 10
+      WATER: 10
+    rarities:
+      COMMON: 10
+      MAGICAL: 10
+      RARE: 10
+      MYTHIC: 10
+    attribute-counts:
+      '1': 10
+    attributes:
+      DAMAGE_REDUCTION_FALLING: 10
+      DAMAGE_REDUCTION_MELEE: 10
+      DAMAGE_REDUCTION_PROJECTILE: 10
+      DAMAGE_REDUCTION_HEAT: 10
+      CHAIN_BREAK_WOOD: 10
+      EXPERIENCE_BONUS_BASE: 10
+  common_generator:
+    type-name: "GENERATOR_COMMON"
+    display-name: "Common"
+    min-level: 1
+    max-level: 10
+    elements:
+      AIR: 10
+      FIRE: 10
+      EARTH: 10
+      WATER: 10
+    rarities:
+      COMMON: 10000
+      MAGICAL: 2000
+      RARE: 500
+      MYTHIC: 1
+    attribute-counts:
+      '1': 10
+    attributes:
+      DAMAGE_ALL: 10
+      DAMAGE_UNDEAD: 5
+      DAMAGE_BEAST: 5
+      DAMAGE_ELEMENTS: 2
+      DAMAGE_PLAYER: 2
+      DAMAGE_SWORDS: 10
+      DAMAGE_AXES: 10
+      DAMAGE_NONWEAPONS: 5
+      DURABILITY_STONE: 10
+      DURABILITY_IRON: 10
+      DURABILITY_WOOD: 2
+      DURABILITY_GOLD: 2
+      DURABILITY_DIAMOND: 10
+      BLOCK_BONUS_ORE: 20
+      BLOCK_BONUS_GEMS: 20
+      BLOCK_BONUS_METALS: 20
+      BLOCK_BONUS_WOOD: 20
+      CHAIN_BREAK_CROPS: 10
+      CHAIN_BREAK_ORE: 5
+      CHAIN_BREAK_WOOD: 20
+      CHAIN_BREAK_LEAVES: 20
+  rare_generator:
+    type-name: "GENERATOR_RARE"
+    display-name: "Rare"
+    min-level: 1
+    max-level: 30
+    elements:
+      AIR: 10
+      FIRE: 10
+      EARTH: 10
+      WATER: 10
+      LIGHT: 10
+      SHADOW: 10
+      TIME: 10
+      SPACE: 10
+    rarities:
+      MAGICAL: 1000
+      RARE: 500
+      MYTHIC: 100
+    attribute-counts:
+      '1': 1000
+      '2': 1
+    attributes:
+      DAMAGE_ALL: 10
+      DAMAGE_UNDEAD: 5
+      DAMAGE_BEAST: 5
+      DAMAGE_ELEMENTS: 2
+      DAMAGE_PLAYER: 2
+      DAMAGE_SWORDS: 10
+      DAMAGE_AXES: 10
+      DAMAGE_NONWEAPONS: 5
+      DURABILITY_STONE: 20
+      DURABILITY_IRON: 20
+      DURABILITY_WOOD: 4
+      DURABILITY_GOLD: 4
+      DURABILITY_DIAMOND: 20
+      BLOCK_BONUS_ORE: 20
+      BLOCK_BONUS_GEMS: 20
+      BLOCK_BONUS_METALS: 20
+      BLOCK_BONUS_WOOD: 20
+      CHAIN_BREAK_CROPS: 20
+      CHAIN_BREAK_ORE: 10
+      CHAIN_BREAK_WOOD: 40
+      CHAIN_BREAK_LEAVES: 40
+  boss_generator:
+    type-name: "GENERATOR_BOSS"
+    display-name: "Boss"
+    min-level: 1
+    max-level: 50
+    elements:
+      LIGHT: 10
+      SHADOW: 10
+      TIME: 10
+      SPACE: 10
+    rarities:
+      RARE: 5
+      MYTHIC: 1
+    attribute-counts:
+      '1': 10
+      '2': 1
+    attributes:
+      DAMAGE_ALL: 10
+      DAMAGE_UNDEAD: 5
+      DAMAGE_BEAST: 5
+      DAMAGE_ELEMENTS: 2
+      DAMAGE_PLAYER: 2
+      DAMAGE_SWORDS: 10
+      DAMAGE_AXES: 10
+      DAMAGE_NONWEAPONS: 5
+      DURABILITY_STONE: 20
+      DURABILITY_IRON: 20
+      DURABILITY_WOOD: 4
+      DURABILITY_GOLD: 4
+      DURABILITY_DIAMOND: 20
+      BLOCK_BONUS_ORE: 20
+      BLOCK_BONUS_GEMS: 20
+      BLOCK_BONUS_METALS: 20
+      BLOCK_BONUS_WOOD: 20
+      CHAIN_BREAK_CROPS: 20
+      CHAIN_BREAK_ORE: 10
+      CHAIN_BREAK_WOOD: 40
+      CHAIN_BREAK_LEAVES: 40
+    

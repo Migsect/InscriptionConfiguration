@@ -1,0 +1,53 @@
+attributes:
+  chain_break_ore:
+    type: CHAIN_BREAK
+    name: CHAIN_BREAK_ORE
+    descriptor: Sapping
+    min-blocks: 1
+    max-blocks: 5
+    rarity-multiplier: 0.5
+    target-blocks: ores
+    target-materials: picks
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  chain_break_crops:
+    type: CHAIN_BREAK
+    name: CHAIN_BREAK_CROPS
+    descriptor: Reaping
+    min-blocks: 1
+    max-blocks: 20
+    rarity-multiplier: 0.5
+    target-blocks: grown crops
+    target-materials: hoes
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  chain_break_wood:
+    type: CHAIN_BREAK
+    name: CHAIN_BREAK_WOOD
+    descriptor: Timbering
+    min-blocks: 1
+    max-blocks: 10
+    rarity-multiplier: 0.5
+    target-blocks: logs
+    target-materials: axes
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  chain_break_leaves:
+    type: CHAIN_BREAK
+    name: CHAIN_BREAK_LEAVES
+    descriptor: Timbering
+    min-blocks: 1
+    max-blocks: 20
+    rarity-multiplier: 0.5
+    target-blocks: logs
+    target-materials: axes
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5

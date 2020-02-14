@@ -1,0 +1,12 @@
+attributes:
+  durability_wood:
+    type: EXPERIENCE_BONUS
+    name: EXPERIENCE_BONUS_BASE
+    descriptor: Enlightenment
+    min-multiplier: 0.10
+    max-multiplier: 0.20
+    rarity-multiplier: 0.5
+    base-experience:
+      Ingenuity: 100
+    level-experience:
+      Ingenuity: 10

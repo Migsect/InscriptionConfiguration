@@ -1,0 +1,61 @@
+attributes:
+  durability_wood:
+    type: DURABILITY
+    name: DURABILITY_WOOD
+    descriptor: Reinforcement
+    min-chance: 0.10
+    max-chance: 0.90
+    rarity-multiplier: 1.0
+    target-materials: wood-tools
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  durability_stone:
+    type: DURABILITY
+    name: DURABILITY_STONE
+    descriptor: Hardening
+    min-chance: 0.10
+    max-chance: 0.50
+    rarity-multiplier: 1.0
+    target-materials: stone-tools
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  durability_iron:
+    type: DURABILITY
+    name: DURABILITY_IRON
+    descriptor: Tempering
+    min-chance: 0.05
+    max-chance: 0.25
+    rarity-multiplier: 1.0
+    target-materials: iron-tools
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  durability_gold:
+    type: DURABILITY
+    name: DURABILITY_GOLD
+    descriptor: Enriching
+    min-chance: 0.05
+    max-chance: 0.75
+    rarity-multiplier: 1.0
+    target-materials: gold-tools
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  durability_diamond:
+    type: DURABILITY
+    name: DURABILITY_DIAMOND
+    descriptor: Crystalizing
+    min-chance: 0.01
+    max-chance: 0.10
+    rarity-multiplier: 1.0
+    target-materials: diamond-tools
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5

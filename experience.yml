@@ -1,0 +1,175 @@
+entity-damage:
+  ZOMBIE: 
+    Valor: 1
+  SKELETON: 
+    Valor: 1
+  SPIDER: 
+    Valor: 1
+  CREEPER: 
+    Valor: 2
+  CAVE_SPIDER: 
+    Valor: 1
+  SLIME: 
+    Valor: 1
+  ENDERMAN: 
+    Valor: 1
+  GHAST: 
+    Valor: 1
+  PIG_ZOMBIE: 
+    Valor: 1
+  MAGMA_CUBE: 
+    Valor: 1
+  SILVERFISH: 
+    Valor: 1
+  ENDERMITE: 
+    Valor: 1
+entity-kill:
+  WITHER: 
+    Valor: 2400
+  ENDER_DRAGON: 
+    Valor: 3000
+material-break:
+  STONE:
+    Endurance: 4
+  SAND:
+    Endurance: 1
+  GRAVEL:
+    Endurance: 2
+  SANDSTONE:
+    Endurance: 3
+  CLAY:
+    Endurance: 4
+  GRASS_BLOCK:
+    Endurance: 2
+  DIRT:
+    Endurance: 1
+  OAK_LOG:
+    Endurance: 10
+  BIRCH_LOG:
+    Endurance: 10
+  SPRUCE_LOG:
+    Endurance: 10
+  JUNGLE_LOG:
+    Endurance: 10
+  DARK_OAK_LOG:
+    Endurance: 10
+  ACACIA_LOG:
+    Endurance: 10
+  COAL_ORE:
+    Endurance: 20
+  IRON_ORE:
+    Endurance: 50
+  GOLD_ORE:
+    Endurance: 100
+  REDSTONE_ORE:
+    Endurance: 55
+  REDSTONE_ORE:
+    Endurance: 55
+  LAPIS_ORE:
+    Endurance: 150
+  EMERALD_ORE:
+    Endurance: 600
+  DIAMOND_ORE:
+    Endurance: 400
+  NETHER_QUARTZ_ORE:
+    Endurance: 30
+  GLOWSTONE:
+    Endurance: 40
+  "minecraft:wheat[age=7]":
+    Endurance: 10
+  "minecraft:potatoes[age=7]":
+    Endurance: 10
+  "minecraft:carrots[age=7]":
+    Endurance: 10
+material-place:
+  REDSTONE:
+    Brilliance: 1
+  REDSTONE_WIRE:
+    Brilliance: 1
+  RAIL:
+    Brilliance: 1
+material-craft:
+  PISTON_BASE:
+    Ingenuity: 50
+  PISTON_STICKY_BASE:
+    Ingenuity: 5
+  HOPPER:
+    Ingenuity: 250
+  ANVIL:
+    Ingenuity: 1550
+  ENCHANTMENT_TABLE:
+    Ingenuity: 400
+  WOODEN_SWORD:
+    Ingenuity: 2
+  WOODEN_AXE:
+    Ingenuity: 3
+  WOODEN_PICKAXE:
+    Ingenuity: 3
+  WOODEN_SPADE:
+    Ingenuity: 1
+  WOODEN_HOE:
+    Ingenuity: 2
+  STONE_SWORD:
+    Ingenuity: 4
+  STONE_AXE:
+    Ingenuity: 6
+  STONE_PICKAXE:
+    Ingenuity: 6
+  STONE_SPADE:
+    Ingenuity: 2
+  STONE_HOE:
+    Ingenuity: 4
+  IRON_SWORD:
+    Ingenuity: 100
+  IRON_AXE:
+    Ingenuity: 150
+  IRON_PICKAXE:
+    Ingenuity: 150
+  IRON_SPADE:
+    Ingenuity: 50
+  IRON_HOE:
+    Ingenuity: 100
+  IRON_HELMET:
+    Ingenuity: 250
+  IRON_CHESTPLATE:
+    Ingenuity: 400
+  IRON_LEGGINGS:
+    Ingenuity: 350
+  IRON_BOOTS:
+    Ingenuity: 200
+  GOLDEN_SWORD:
+    Ingenuity: 180
+  GOLDEN_AXE:
+    Ingenuity: 270
+  GOLDEN_PICKAXE:
+    Ingenuity: 270
+  GOLDEN_SPADE:
+    Ingenuity: 90
+  GOLDEN_HOE:
+    Ingenuity: 180
+  GOLDEN_HELMET:
+    Ingenuity: 450
+  GOLDEN_CHESTPLATE:
+    Ingenuity: 720
+  GOLDEN_LEGGINGS:
+    Ingenuity: 630
+  GOLDEN_BOOTS:
+    Ingenuity: 360
+  DIAMOND_SWORD:
+    Ingenuity: 400
+  DIAMOND_AXE:
+    Ingenuity: 600
+  DIAMOND_PICKAXE:
+    Ingenuity: 600
+  DIAMOND_SPADE:
+    Ingenuity: 200
+  DIAMOND_HOE:
+    Ingenuity: 400
+  DIAMOND_HELMET:
+    Ingenuity: 1000
+  DIAMOND_CHESTPLATE:
+    Ingenuity: 1600
+  DIAMOND_LEGGINGS:
+    Ingenuity: 1400
+  DIAMOND_BOOTS:
+    Ingenuity: 800

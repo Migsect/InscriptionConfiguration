@@ -1,0 +1,66 @@
+attributes:
+  block_bonus_ores:
+    type: BLOCK_BONUS
+    name: BLOCK_BONUS_ORE
+    descriptor: Prospecting
+    min-chance: 0.01
+    max-chance: 0.10
+    rarity-multiplier: 0.5
+    target-blocks: ores
+    target-materials: pickaxes
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5
+  block_bonus_gems:
+    type: BLOCK_BONUS
+    name: BLOCK_BONUS_GEMS
+    descriptor: Gemologic
+    min-chance: 0.02
+    max-chance: 0.20
+    rarity-multiplier: 0.5
+    target-blocks: gems
+    target-materials: pickaxes
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5
+  block_bonus_metals:
+    type: BLOCK_BONUS
+    name: BLOCK_BONUS_METALS
+    descriptor: Metallurgic
+    min-chance: 0.02
+    max-chance: 0.20
+    rarity-multiplier: 0.5
+    target-blocks: metals
+    target-materials: pickaxes
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5
+  block_bonus_wood:
+    type: BLOCK_BONUS
+    name: BLOCK_BONUS_WOOD
+    descriptor: Foresting
+    min-chance: 0.02
+    max-chance: 0.20
+    rarity-multiplier: 0.5
+    target-blocks: logs
+    target-materials: axes
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5
+  block_bonus_crops:
+    type: BLOCK_BONUS
+    name: BLOCK_BONUS_CROPS
+    descriptor: Bounty
+    min-chance: 0.02
+    max-chance: 0.20
+    rarity-multiplier: 0.5
+    target-blocks: crops_grown
+    target-materials: anything
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5

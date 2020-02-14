@@ -1,0 +1,96 @@
+drops:
+  entities:
+    ZOMBIE:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    SKELETON:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    PIG_ZOMBIE:
+      generator: GENERATOR_COMMON
+      rate: 0.02
+    WITHER:
+      generator: GENERATOR_BOSS
+      rate: 1.0
+    GHAST:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    SPIDER:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    CAVE_SPIDER:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    ENDER_DRAGON:
+      generator: GENERATOR_BOSS
+      rate: 1.0
+    ENDERMITE:
+      generator: GENERATOR_COMMON
+      rate: 0.005
+    SILVERFISH:
+      generator: GENERATOR_COMMON
+      rate: 0.005
+    CREEPER:
+      generator: GENERATOR_COMMON
+      rate: 0.05
+    BLAZE:
+      generator: GENERATOR_COMMON
+      rate: 0.02
+    ENDERMAN:
+      generator: GENERATOR_RARE
+      rate: 0.01
+    MAGMA_CUBE:
+      generator: GENERATOR_RARE
+      rate: 0.10
+    SLIME:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    WITCH:
+      generator: GENERATOR_RARE
+      rate: 1.0
+  materials:
+    EMERALD_ORE: 
+      generator: GENERATOR_RARE
+      rate: 1.0
+    DIAMOND_ORE: 
+      generator: GENERATOR_RARE
+      rate: 0.3
+    IRON_ORE: 
+      generator: GENERATOR_COMMON
+      rate: 0.03
+    REDSTONE_ORE: 
+      generator: GENERATOR_COMMON
+      rate: 0.02
+    REDSTONE_ORE: 
+      generator: GENERATOR_COMMON
+      rate: 0.02
+    COAL_ORE: 
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    GOLD_ORE: 
+      generator: GENERATOR_RARE
+      rate: 0.10
+    LAPIS_ORE: 
+      generator: GENERATOR_RARE
+      rate: 0.16
+    NETHER_QUARTZ_ORE: 
+      generator: GENERATOR_COMMON
+      rate: 0.01
+  experience-overflow:
+    valor-overflow:
+      generator: GENERATOR_COMMON
+      experience: 
+        Valor: 1000
+    endurance-overflow:
+      generator: GENERATOR_COMMON
+      experience: 
+        Endurance: 1000
+    brilliance-overflow:
+      generator: GENERATOR_COMMON
+      experience: 
+        Brilliance: 1000
+    ingenuity-overflow:
+      generator: GENERATOR_COMMON
+      experience: 
+        Ingenuity: 1000
+  

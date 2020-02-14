@@ -1,0 +1,100 @@
+attributes:
+  damage_all:
+    type: DAMAGE
+    name: DAMAGE_ALL
+    descriptor: Savage
+    min-damage: 0.01
+    max-damage: 0.10
+    rarity-multiplier: 0.5
+    target-entities: creatures
+    base-experience:
+      Valor: 60
+    level-experience:
+      Valor: 5
+  damage_undead:
+    type: DAMAGE
+    name: DAMAGE_UNDEAD
+    descriptor: Smiting
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: undead
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_beast:
+    type: DAMAGE
+    name: DAMAGE_BEAST
+    descriptor: Slaying
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: beasts
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_elements:
+    type: DAMAGE
+    name: DAMAGE_ELEMENTS
+    descriptor: Disenchanting
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: elementals
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_player:
+    type: DAMAGE
+    name: DAMAGE_PLAYER
+    descriptor: Murderous
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: denizens
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_swords:
+    type: DAMAGE
+    name: DAMAGE_SWORDS
+    descriptor: Slashing
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: creatures
+    target-materials: swords
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  damage_axes:
+    type: DAMAGE
+    name: DAMAGE_AXES
+    descriptor: Hacking
+    min-damage: 0.02
+    max-damage: 0.20
+    rarity-multiplier: 0.5
+    target-entities: creatures
+    target-materials: axes
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  damage_nonweapons:
+    type: DAMAGE
+    name: DAMAGE_NONWEAPONS
+    descriptor: Bashing
+    min-damage: 0.1
+    max-damage: 1.0
+    rarity-multiplier: 0.5
+    target-entities: creatures
+    target-materials: non-weapons
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5

@@ -1,0 +1,63 @@
+damage-classes:
+  all:
+    name: all
+    inherited:
+     - GLOBAL
+  heat:
+    name: heat
+    damage-types:
+     - LAVA
+     - FIRE
+     - FIRE_TICK
+     - HOT_FLOOR
+  melee:
+    name: melee
+    damage-types:
+     - ENTITY_ATTACK
+     - ENTITY_SWEEP_ATTACK
+  projectile:
+    name: projectile
+    damage-types:
+     - PROJECTILE
+  explosion:
+    name: explosion
+    damage-types:
+     - BLOCK_EXPLOSION
+     - ENTITY_SWEEP_ATTACK
+  collision:
+    name: collision
+    damage-types:
+     - FALLING_BLOCK
+     - FALL
+     - FLY_INTO_WALL
+     - CRAMMING
+  fall:
+    name: fall
+    damage-types:
+     - FALL
+  magic:
+    name: magic
+    damage-types:
+     - MAGIC
+  poison:
+    name: poison
+    damage-types:
+     - POISON
+  wither:
+    name: wither
+    damage-types:
+     - WITHER
+  thorns:
+    name: thorns
+    damage-types:
+     - THORNS
+  starvation:
+    name: starvation
+    damage-types:
+     - STARVATION
+  suffocation:
+    name: suffocation
+    damage-types:
+     - SUFFOCATION
+     - DROWNING
+  

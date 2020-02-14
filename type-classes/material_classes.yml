@@ -1,0 +1,202 @@
+material-classes:
+  all:
+    name: items
+    inherited:
+     - GLOBAL
+  anything:
+    name: anything
+    inherited:
+     - GLOBAL
+  weapons:
+    name: weapons
+    inherited:
+     - swords
+     - axes
+  tools:
+    name: tools
+    inherited:
+     - axes
+     - pickaxes
+     - shovels
+     - hoes
+  nonweapons:
+    name: non-weapons
+    inherited:
+     - pickaxes
+     - shovels
+     - hoes
+  pickaxes:
+    name: pickaxes
+    materials:
+     - WOODEN_PICKAXE
+     - STONE_PICKAXE
+     - IRON_PICKAXE
+     - GOLDEN_PICKAXE
+     - DIAMOND_PICKAXE
+  swords:
+    name: swords
+    materials:
+     - WOODEN_SWORD
+     - STONE_SWORD
+     - IRON_SWORD
+     - GOLDEN_SWORD
+     - DIAMOND_SWORD
+  axes:
+    name: axes
+    materials:
+     - WOODEN_AXE
+     - STONE_AXE
+     - IRON_AXE
+     - GOLDEN_AXE
+     - DIAMOND_AXE
+  shovels:
+    name: shovels
+    materials:
+     - WOODEN_SHOVEL
+     - STONE_SHOVEL
+     - IRON_SHOVEL
+     - GOLDEN_SHOVEL
+     - DIAMOND_SHOVEL
+  hoes:
+    name: hoes
+    materials:
+     - WOODEN_HOE
+     - STONE_HOE
+     - IRON_HOE
+     - GOLDEN_HOE
+     - DIAMOND_HOE
+  wooden_tools:
+    name: wood-tools
+    materials:
+     - WOODEN_HOE
+     - WOODEN_SHOVEL
+     - WOODEN_AXE
+     - WOODEN_SWORD
+     - WOODEN_PICKAXE
+  stone_tools:
+    name: stone-tools
+    materials:
+     - STONE_HOE
+     - STONE_SHOVEL
+     - STONE_AXE
+     - STONE_SWORD
+     - STONE_PICKAXE
+  iron_tools:
+    name: iron-tools
+    materials:
+     - IRON_HOE
+     - IRON_SHOVEL
+     - IRON_AXE
+     - IRON_SWORD
+     - IRON_PICKAXE
+  golden_tools:
+    name: gold-tools
+    materials:
+     - GOLDEN_HOE
+     - GOLDEN_SHOVEL
+     - GOLDEN_AXE
+     - GOLDEN_SWORD
+     - GOLDEN_PICKAXE
+  diamond_tools:
+    name: diamond-tools
+    materials:
+     - DIAMOND_HOE
+     - DIAMOND_SHOVEL
+     - DIAMOND_AXE
+     - DIAMOND_SWORD
+     - DIAMOND_PICKAXE
+  leather_armor:
+    name: leather-armor
+    materials: 
+     - LEATHER_BOOTS
+     - LEATHER_CHESTPLATE
+     - LEATHER_HELMET
+     - LEATHER_LEGGINGS
+  iron_armor:
+    name: iron-armor
+    materials: 
+     - IRON_BOOTS
+     - IRON_CHESTPLATE
+     - IRON_HELMET
+     - IRON_LEGGINGS
+  golden_armor:
+    name: golden-armor
+    materials: 
+     - GOLDEN_BOOTS
+     - GOLDEN_CHESTPLATE
+     - GOLDEN_HELMET
+     - GOLDEN_LEGGINGS
+  diamond_armor:
+    name: diamond-armor
+    materials: 
+     - DIAMOND_BOOTS
+     - DIAMOND_CHESTPLATE
+     - DIAMOND_HELMET
+     - DIAMOND_LEGGINGS
+  chainmail_armor:
+    name: chainmail-armor
+    materials: 
+     - CHAINMAIL_BOOTS
+     - CHAINMAIL_CHESTPLATE
+     - CHAINMAIL_HELMET
+     - CHAINMAIL_LEGGINGS
+  pumpkin:
+    name: pumpkin
+    materials: 
+     - PUMPKIN
+  crops:
+    name: crops
+    materials:
+     - WHEAT
+     - POTATOES
+     - CARROTS
+     - BEETROOTS
+     - SUGAR_CANE
+  crops_grown:
+    name: grown crops
+    materials:
+     - "minecraft:wheat[age=7]"
+     - "minecraft:potatoes[age=7]"
+     - "minecraft:carrots[age=7]"
+     - "minecraft:beetroots[age=3]"
+     - SUGAR_CANE
+  ores:
+    name: ores
+    inherited:
+     - gems
+     - minerals
+     - metals
+  logs:
+    name: logs
+    materials:
+     - OAK_LOG
+     - BIRCH_LOG
+     - SPRUCE_LOG
+     - JUNGLE_LOG
+     - DARK_OAK_LOG
+     - ACACIA_LOG
+  gems:
+    name: gems
+    materials:
+     - EMERALD_ORE
+     - DIAMOND_ORE
+     - NETHER_QUARTZ_ORE
+  minerals:
+    name: minerals
+    materials: 
+     - LAPIS_ORE
+     - COAL_ORE
+  metals:
+    name: metals
+    materials:
+     - IRON_ORE
+     - GOLD_ORE
+  leaves:
+    name: leaves
+    materials:
+     - OAK_LEAVES
+     - BIRCH_LEAVES
+     - SPRUCE_LEAVES
+     - JUNGLE_LEAVES
+     - DARK_OAK_LEAVES
+     - ACACIA_LEAVES
