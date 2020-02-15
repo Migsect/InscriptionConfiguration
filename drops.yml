@@ -3,9 +3,24 @@ drops:
     ZOMBIE:
       generator: GENERATOR_COMMON
       rate: 0.01
+    ZOMBIE_VILLAGER:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    DROWNED:
+      generator: GENERATOR_COMMON
+      rate: 0.01
+    HUSK:
+      generator: GENERATOR_COMMON
+      rate: 0.1
     SKELETON:
       generator: GENERATOR_COMMON
       rate: 0.01
+    STRAY:
+      generator: GENERATOR_COMMON
+      rate: 0.1
+    WITHER_SKELETON:
+      generator: GENERATOR_COMMON
+      rate: 0.05
     PIG_ZOMBIE:
       generator: GENERATOR_COMMON
       rate: 0.02
@@ -47,6 +62,27 @@ drops:
       rate: 0.01
     WITCH:
       generator: GENERATOR_RARE
+      rate: 1.0
+    RAVAGER:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    PHANTOM:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    PILLAGER:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    ILLUSIONER:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    EVOKER:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    GUARDIAN:
+      generator: GENERATOR_RARE
+      rate: 0.1
+    ELDER_GUARDIAN:
+      generator: GENERATOR_BOSS
       rate: 1.0
   materials:
     EMERALD_ORE: 

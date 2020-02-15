@@ -28,7 +28,7 @@ attributes:
   damage_reduction_explosion:
     type: DAMAGE_REDUCTION
     name: DAMAGE_REDUCTION_EXPLOSION
-    descriptor: Deflecting
+    descriptor: Reactive
     min-reduction: 0.10
     max-reduction: 0.20
     rarity-multiplier: 0.25
@@ -43,10 +43,10 @@ attributes:
     name: DAMAGE_REDUCTION_FALLING
     descriptor: Cushioning
     min-reduction: 0.10
-    max-reduction: 0.50
+    max-reduction: 0.20
     rarity-multiplier: 0.25
-    target-damage: collision
-    target-materials: leather-armor
+    target-damage: explosion
+    target-materials: anything
     base-experience:
       Ingenuity: 40
     level-experience:
@@ -56,6 +56,58 @@ attributes:
     name: DAMAGE_REDUCTION_HEAT
     descriptor: Incombustible
     min-reduction: 0.10
+    max-reduction: 0.20
+    rarity-multiplier: 0.25
+    target-damage: collision
+    target-materials: anything
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  damage_reduction_falling_leather:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_FALLING_LEATHER
+    descriptor: Padded
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: collision
+    target-materials: leather-armor
+    base-experience:
+      Ingenuity: 40
+    level-experience:
+      Ingenuity: 5
+  damage_reduction_melee:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_MELEE_CHAINMAIL
+    descriptor: Shearless
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: melee
+    target-materials: chainmail-armor
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_reduction_projectile:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_PROJECTILE_IRON
+    descriptor: Impenetrable
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: projectile
+    target-materials: iron-armor
+    base-experience:
+      Valor: 40
+    level-experience:
+      Valor: 5
+  damage_reduction_heat_gold:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_HEAT_GOLD
+    descriptor: Aurumic
+    min-reduction: 0.10
     max-reduction: 0.50
     rarity-multiplier: 0.25
     target-damage: heat
@@ -64,3 +116,16 @@ attributes:
       Ingenuity: 40
     level-experience:
       Ingenuity: 5
+  damage_reduction_explosion:
+    type: DAMAGE_REDUCTION
+    name: DAMAGE_REDUCTION_EXPLOSION_DIAMOND
+    descriptor: Unshatterable
+    min-reduction: 0.10
+    max-reduction: 0.50
+    rarity-multiplier: 0.25
+    target-damage: explosion
+    target-materials: diamond-armor
+    base-experience:
+      Endurance: 40
+    level-experience:
+      Endurance: 5

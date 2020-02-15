@@ -58,7 +58,7 @@ attributes:
     min-chance: 0.02
     max-chance: 0.20
     rarity-multiplier: 0.5
-    target-blocks: crops_grown
+    target-blocks: crops-grown
     target-materials: anything
     base-experience:
       Endurance: 40

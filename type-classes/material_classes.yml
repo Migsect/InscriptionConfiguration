@@ -153,7 +153,7 @@ material-classes:
      - BEETROOTS
      - SUGAR_CANE
   crops_grown:
-    name: grown crops
+    name: crops-grown
     materials:
      - "minecraft:wheat[age=7]"
      - "minecraft:potatoes[age=7]"

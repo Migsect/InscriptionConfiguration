@@ -7,7 +7,7 @@ attributes:
     max-blocks: 5
     rarity-multiplier: 0.5
     target-blocks: ores
-    target-materials: picks
+    target-materials: pickaxes
     base-experience:
       Ingenuity: 40
     level-experience:
@@ -19,7 +19,7 @@ attributes:
     min-blocks: 1
     max-blocks: 20
     rarity-multiplier: 0.5
-    target-blocks: grown crops
+    target-blocks: crops-grown
     target-materials: hoes
     base-experience:
       Ingenuity: 40

@@ -1,60 +1,120 @@
 entity-damage:
   ZOMBIE: 
-    Valor: 1
+    Valor: 5
+  ZOMBIE_VILLAGER:
+    Valor: 4
+  DROWNED:
+    Valor: 7
+  HUSK:
+    Valor: 7
   SKELETON: 
-    Valor: 1
+    Valor: 5
+  STRAY:
+    Valor: 5
+  WITHER_SKELETON:
+    Valor: 8
+  SKELETON_HORSE:
+    Valor: 4
   SPIDER: 
-    Valor: 1
+    Valor: 5
   CREEPER: 
-    Valor: 2
+    Valor: 10
   CAVE_SPIDER: 
-    Valor: 1
+    Valor: 7
   SLIME: 
-    Valor: 1
+    Valor: 5
   ENDERMAN: 
-    Valor: 1
+    Valor: 5
+  SHULKER:
+    Valor: 10
   GHAST: 
-    Valor: 1
+    Valor: 13
   PIG_ZOMBIE: 
-    Valor: 1
+    Valor: 5
   MAGMA_CUBE: 
-    Valor: 1
+    Valor: 5
   SILVERFISH: 
-    Valor: 1
+    Valor: 3
   ENDERMITE: 
-    Valor: 1
+    Valor: 3
+  GUARDIAN:
+    Valor: 10
+  ELDER_GUARDIAN:
+    Valor: 10
+  RAVAGER:
+    Valor: 10
+  PHANTOM:
+    Valor: 10
+  PILLAGER:
+    Valor: 10
+  ILLUSIONER:
+    Valor: 10
+  EVOKER:
+    Valor: 10
 entity-kill:
   WITHER: 
     Valor: 2400
   ENDER_DRAGON: 
     Valor: 3000
 material-break:
+  OAK_WOOD:
+    Endurance: 2
+  BIRCH_WOOD:
+    Endurance: 2
+  SPRUCE_WOOD:
+    Endurance: 2
+  JUNGLE_WOOD:
+    Endurance: 2
+  DARK_OAK_WOOD:
+    Endurance: 2
+  ACACIA_WOOD:
+    Endurance: 2
   STONE:
-    Endurance: 4
+    Endurance: 5
+  ENDER_STONE:
+    Endurance: 8
+  GRANITE:
+    Endurance: 6
+  ANDESITE:
+    Endurance: 6
+  DIORITE:
+    Endurance: 6
+  OBSIDIAN:
+    Endurance: 80
+  NETHERRACK:
+    Endurance: 3
+  SOUL_SAND:
+    Endurance: 3
   SAND:
     Endurance: 1
+  RED_SAND:
+    Endurance: 1
   GRAVEL:
-    Endurance: 2
+    Endurance: 5
   SANDSTONE:
-    Endurance: 3
-  CLAY:
     Endurance: 4
+  RED_SANDSTONE:
+    Endurance: 4
+  CLAY:
+    Endurance: 16
   GRASS_BLOCK:
+    Endurance: 2
+  PODZOL:
     Endurance: 2
   DIRT:
     Endurance: 1
   OAK_LOG:
-    Endurance: 10
+    Endurance: 8
   BIRCH_LOG:
-    Endurance: 10
+    Endurance: 8
   SPRUCE_LOG:
-    Endurance: 10
+    Endurance: 8
   JUNGLE_LOG:
-    Endurance: 10
+    Endurance: 8
   DARK_OAK_LOG:
-    Endurance: 10
+    Endurance: 8
   ACACIA_LOG:
-    Endurance: 10
+    Endurance: 8
   COAL_ORE:
     Endurance: 20
   IRON_ORE:
@@ -62,19 +122,17 @@ material-break:
   GOLD_ORE:
     Endurance: 100
   REDSTONE_ORE:
-    Endurance: 55
-  REDSTONE_ORE:
-    Endurance: 55
+    Endurance: 60
   LAPIS_ORE:
-    Endurance: 150
+    Endurance: 125
   EMERALD_ORE:
     Endurance: 600
   DIAMOND_ORE:
     Endurance: 400
   NETHER_QUARTZ_ORE:
-    Endurance: 30
+    Endurance: 25
   GLOWSTONE:
-    Endurance: 40
+    Endurance: 25
   "minecraft:wheat[age=7]":
     Endurance: 10
   "minecraft:potatoes[age=7]":
@@ -88,44 +146,136 @@ material-place:
     Brilliance: 1
   RAIL:
     Brilliance: 1
+  PISTON:
+    Brilliance: 1
+  STICKY_PISTON:
+    Brilliance: 1
+  HOPPER:
+    Brilliance: 1
+  REDSTONE_LAMP:
+    Brilliance: 1
+  REDSTONE_TORCH:
+    Brilliance: 1
+  REPEATER:
+    Brilliance: 1
+  COMPARATOR:
+    Brilliance: 1
+  OBSERVER:
+    Brilliance: 1
 material-craft:
-  PISTON_BASE:
+  CHEST:
+    Ingenuity: 16
+  FURNACE:
+    Ingenuity: 40
+  CRAFTING_TABLE:
+    Ingenuity: 8
+  BREWING_STAND:
+    Ingenuity: 16
+  CAULDRON:
+    Ingenuity: 350
+  PISTON:
     Ingenuity: 50
-  PISTON_STICKY_BASE:
+  LIGHT_GRAY_BED:
+    Ingenuity: 12
+  LIGHT_BLUE_BED:
+    Ingenuity: 12
+  WHITE_BED:
+    Ingenuity: 12
+  BLACK_BED:
+    Ingenuity: 12
+  GREEN_BED:
+    Ingenuity: 12
+  MAGENTA_BED:
+    Ingenuity: 12
+  ORANGE_BED:
+    Ingenuity: 12
+  PURPLE_BED:
+    Ingenuity: 12
+  RED_BED:
+    Ingenuity: 12
+  YELLOW_BED:
+    Ingenuity: 12
+  PURPLE_BED:
+    Ingenuity: 12
+  PINK_BED:
+    Ingenuity: 12
+  LIME_BED:
+    Ingenuity: 12
+  GRAY_BED:
+    Ingenuity: 12
+  CYAN_BED:
+    Ingenuity: 12
+  BROWN_BED:
+    Ingenuity: 12
+  PISTON_STICKY:
     Ingenuity: 5
   HOPPER:
     Ingenuity: 250
+  REDSTONE_LAMP:
+    Ingenuity: 80
+  REDSTONE_TORCH:
+    Ingenuity: 15
+  REPEATER:
+    Ingenuity: 23
+  COMPARATOR:
+    Ingenuity: 32
+  OBSERVER:
+    Ingenuity: 57
   ANVIL:
-    Ingenuity: 1550
-  ENCHANTMENT_TABLE:
-    Ingenuity: 400
+    Ingenuity: 650
+  ENCHANTING_TABLE:
+    Ingenuity: 1120
+  COMPASS:
+    Ingenuity: 215
+  CLOCK:
+    Ingenuity: 415
+  FLINT_AND_STEEL:
+    Ingenuity: 52
+  FLINT_AND_STEEL:
+    Ingenuity: 52
+  MINECART:
+    Ingenuity: 250
+  BUCKET:
+    Ingenuity: 150
+  BOOK:
+    Ingenuity: 8
+  BOOKSHELF:
+    Ingenuity: 24
   WOODEN_SWORD:
-    Ingenuity: 2
+    Ingenuity: 4
   WOODEN_AXE:
-    Ingenuity: 3
+    Ingenuity: 6
   WOODEN_PICKAXE:
-    Ingenuity: 3
-  WOODEN_SPADE:
-    Ingenuity: 1
+    Ingenuity: 6
+  WOODEN_SHOVEL:
+    Ingenuity: 2
   WOODEN_HOE:
-    Ingenuity: 2
+    Ingenuity: 4
+  LEATHER_HELMET:
+    Ingenuity: 40
+  LEATHER_CHESTPLATE:
+    Ingenuity: 64
+  LEATHER_LEGGINGS:
+    Ingenuity: 56
+  LEATHER_BOOTS:
+    Ingenuity: 32
   STONE_SWORD:
-    Ingenuity: 4
+    Ingenuity: 10
   STONE_AXE:
-    Ingenuity: 6
+    Ingenuity: 15
   STONE_PICKAXE:
-    Ingenuity: 6
-  STONE_SPADE:
-    Ingenuity: 2
+    Ingenuity: 15
+  STONE_SHOVEL:
+    Ingenuity: 5
   STONE_HOE:
-    Ingenuity: 4
+    Ingenuity: 10
   IRON_SWORD:
     Ingenuity: 100
   IRON_AXE:
     Ingenuity: 150
   IRON_PICKAXE:
     Ingenuity: 150
-  IRON_SPADE:
+  IRON_SHOVEL:
     Ingenuity: 50
   IRON_HOE:
     Ingenuity: 100
@@ -138,38 +288,40 @@ material-craft:
   IRON_BOOTS:
     Ingenuity: 200
   GOLDEN_SWORD:
-    Ingenuity: 180
-  GOLDEN_AXE:
-    Ingenuity: 270
-  GOLDEN_PICKAXE:
-    Ingenuity: 270
-  GOLDEN_SPADE:
-    Ingenuity: 90
-  GOLDEN_HOE:
-    Ingenuity: 180
-  GOLDEN_HELMET:
-    Ingenuity: 450
-  GOLDEN_CHESTPLATE:
-    Ingenuity: 720
-  GOLDEN_LEGGINGS:
-    Ingenuity: 630
-  GOLDEN_BOOTS:
-    Ingenuity: 360
-  DIAMOND_SWORD:
-    Ingenuity: 400
-  DIAMOND_AXE:
-    Ingenuity: 600
-  DIAMOND_PICKAXE:
-    Ingenuity: 600
-  DIAMOND_SPADE:
     Ingenuity: 200
-  DIAMOND_HOE:
-    Ingenuity: 400
-  DIAMOND_HELMET:
-    Ingenuity: 1000
-  DIAMOND_CHESTPLATE:
-    Ingenuity: 1600
-  DIAMOND_LEGGINGS:
-    Ingenuity: 1400
-  DIAMOND_BOOTS:
+  GOLDEN_AXE:
+    Ingenuity: 300
+  GOLDEN_PICKAXE:
+    Ingenuity: 300
+  GOLDEN_SHOVEL:
+    Ingenuity: 100
+  GOLDEN_HOE:
+    Ingenuity: 200
+  GOLDEN_HELMET:
+    Ingenuity: 500
+  GOLDEN_CHESTPLATE:
     Ingenuity: 800
+  GOLDEN_LEGGINGS:
+    Ingenuity: 700
+  GOLDEN_BOOTS:
+    Ingenuity: 400
+  DIAMOND_SWORD:
+    Ingenuity: 800
+  DIAMOND_AXE:
+    Ingenuity: 1200
+  DIAMOND_PICKAXE:
+    Ingenuity: 1200
+  DIAMOND_SHOVEL:
+    Ingenuity: 400
+  DIAMOND_HOE:
+    Ingenuity: 800
+  DIAMOND_HELMET:
+    Ingenuity: 2000
+  DIAMOND_CHESTPLATE:
+    Ingenuity: 3200
+  DIAMOND_LEGGINGS:
+    Ingenuity: 2800
+  DIAMOND_BOOTS:
+    Ingenuity: 1600
+  SHIELD:
+    Ingenuity: 50

@@ -7,6 +7,6 @@ attributes:
     max-multiplier: 0.20
     rarity-multiplier: 0.5
     base-experience:
-      Ingenuity: 100
+      Ingenuity: 80
     level-experience:
       Ingenuity: 10
