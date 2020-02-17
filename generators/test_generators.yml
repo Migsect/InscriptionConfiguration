@@ -1,0 +1,25 @@
+test_generator:
+  type-name: "GENERATOR_TEST"
+  display-name: "Test"
+  model: 2
+  min-level: 1
+  max-level: 100
+  elements:
+    AIR: 10
+    FIRE: 10
+    EARTH: 10
+    WATER: 10
+  rarities:
+    COMMON: 10
+    MAGICAL: 10
+    RARE: 10
+    MYTHIC: 10
+  attribute-counts:
+    '1': 10
+  attributes:
+    DAMAGE_REDUCTION_FALLING: 10
+    DAMAGE_REDUCTION_MELEE: 10
+    DAMAGE_REDUCTION_PROJECTILE: 10
+    DAMAGE_REDUCTION_HEAT: 10
+    CHAIN_BREAK_WOOD: 10
+    EXPERIENCE_BONUS_BASE: 10

@@ -1,0 +1,83 @@
+material-break:
+  OAK_WOOD:
+    Endurance: 2
+  BIRCH_WOOD:
+    Endurance: 2
+  SPRUCE_WOOD:
+    Endurance: 2
+  JUNGLE_WOOD:
+    Endurance: 2
+  DARK_OAK_WOOD:
+    Endurance: 2
+  ACACIA_WOOD:
+    Endurance: 2
+  STONE:
+    Endurance: 5
+  ENDER_STONE:
+    Endurance: 8
+  GRANITE:
+    Endurance: 6
+  ANDESITE:
+    Endurance: 6
+  DIORITE:
+    Endurance: 6
+  OBSIDIAN:
+    Endurance: 80
+  NETHERRACK:
+    Endurance: 3
+  SOUL_SAND:
+    Endurance: 3
+  SAND:
+    Endurance: 1
+  RED_SAND:
+    Endurance: 1
+  GRAVEL:
+    Endurance: 5
+  SANDSTONE:
+    Endurance: 4
+  RED_SANDSTONE:
+    Endurance: 4
+  CLAY:
+    Endurance: 16
+  GRASS_BLOCK:
+    Endurance: 2
+  PODZOL:
+    Endurance: 2
+  DIRT:
+    Endurance: 1
+  OAK_LOG:
+    Endurance: 8
+  BIRCH_LOG:
+    Endurance: 8
+  SPRUCE_LOG:
+    Endurance: 8
+  JUNGLE_LOG:
+    Endurance: 8
+  DARK_OAK_LOG:
+    Endurance: 8
+  ACACIA_LOG:
+    Endurance: 8
+  COAL_ORE:
+    Endurance: 20
+  IRON_ORE:
+    Endurance: 50
+  GOLD_ORE:
+    Endurance: 100
+  REDSTONE_ORE:
+    Endurance: 60
+  LAPIS_ORE:
+    Endurance: 125
+  EMERALD_ORE:
+    Endurance: 600
+  DIAMOND_ORE:
+    Endurance: 400
+  NETHER_QUARTZ_ORE:
+    Endurance: 25
+  GLOWSTONE:
+    Endurance: 25
+  "minecraft:wheat[age=7]":
+    Endurance: 10
+  "minecraft:potatoes[age=7]":
+    Endurance: 10
+  "minecraft:carrots[age=7]":
+    Endurance: 10

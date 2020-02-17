@@ -1,0 +1,53 @@
+entity-damage:
+  ZOMBIE: 
+    Valor: 5
+  ZOMBIE_VILLAGER:
+    Valor: 4
+  DROWNED:
+    Valor: 7
+  HUSK:
+    Valor: 7
+  SKELETON: 
+    Valor: 5
+  STRAY:
+    Valor: 5
+  WITHER_SKELETON:
+    Valor: 8
+  SKELETON_HORSE:
+    Valor: 4
+  SPIDER: 
+    Valor: 5
+  CREEPER: 
+    Valor: 10
+  CAVE_SPIDER: 
+    Valor: 7
+  SLIME: 
+    Valor: 5
+  ENDERMAN: 
+    Valor: 5
+  SHULKER:
+    Valor: 10
+  GHAST: 
+    Valor: 13
+  PIG_ZOMBIE: 
+    Valor: 5
+  MAGMA_CUBE: 
+    Valor: 5
+  SILVERFISH: 
+    Valor: 3
+  ENDERMITE: 
+    Valor: 3
+  GUARDIAN:
+    Valor: 10
+  ELDER_GUARDIAN:
+    Valor: 10
+  RAVAGER:
+    Valor: 10
+  PHANTOM:
+    Valor: 10
+  PILLAGER:
+    Valor: 10
+  ILLUSIONER:
+    Valor: 10
+  EVOKER:
+    Valor: 10

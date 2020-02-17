@@ -1,0 +1,23 @@
+material-place:
+  REDSTONE:
+    Brilliance: 1
+  REDSTONE_WIRE:
+    Brilliance: 1
+  RAIL:
+    Brilliance: 1
+  PISTON:
+    Brilliance: 1
+  STICKY_PISTON:
+    Brilliance: 1
+  HOPPER:
+    Brilliance: 1
+  REDSTONE_LAMP:
+    Brilliance: 1
+  REDSTONE_TORCH:
+    Brilliance: 1
+  REPEATER:
+    Brilliance: 1
+  COMPARATOR:
+    Brilliance: 1
+  OBSERVER:
+    Brilliance: 1
