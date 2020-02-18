@@ -2,7 +2,7 @@ block_bonus_ores:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_ORE
   descriptor: Prospecting
-  model: 10000
+  model: 60000
   min-chance: 0.01
   max-chance: 0.10
   rarity-multiplier: 0.5
@@ -16,7 +16,7 @@ block_bonus_gems:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_GEMS
   descriptor: Gemologic
-  model: 10000
+  model: 60000
   min-chance: 0.02
   max-chance: 0.20
   rarity-multiplier: 0.5
@@ -30,7 +30,7 @@ block_bonus_metals:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_METALS
   descriptor: Metallurgic
-  model: 10000
+  model: 100000
   min-chance: 0.02
   max-chance: 0.20
   rarity-multiplier: 0.5
@@ -44,7 +44,7 @@ block_bonus_wood:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_WOOD
   descriptor: Foresting
-  model: 10000
+  model: 150000
   min-chance: 0.02
   max-chance: 0.20
   rarity-multiplier: 0.5
@@ -58,7 +58,7 @@ block_bonus_crops:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_CROPS
   descriptor: Bounty
-  model: 10000
+  model: 90000
   min-chance: 0.02
   max-chance: 0.20
   rarity-multiplier: 0.5
