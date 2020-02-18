@@ -1,7 +1,7 @@
 common_generator:
   type-name: "GENERATOR_COMMON"
   display-name: "Basic"
-  model: 50
+  model: 115
   min-level: 1
   max-level: 10
   elements:
@@ -41,7 +41,7 @@ common_generator:
 rare_generator:
   type-name: "GENERATOR_RARE"
   display-name: "Advanced"
-  model: 51
+  model: 706
   min-level: 1
   max-level: 10
   elements:
@@ -94,7 +94,7 @@ rare_generator:
 boss_generator:
   type-name: "GENERATOR_BOSS"
   display-name: "Elite"
-  model: 52
+  model: 1110
   min-level: 1
   max-level: 10
   elements:

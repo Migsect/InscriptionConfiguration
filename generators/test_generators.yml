@@ -1,7 +1,7 @@
 test_generator:
   type-name: "GENERATOR_TEST"
   display-name: "Test"
-  model: 2
+  model: 201
   min-level: 1
   max-level: 100
   elements:

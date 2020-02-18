@@ -2,7 +2,7 @@ experience_bonus:
   type: EXPERIENCE_BONUS
   name: EXPERIENCE_BONUS_BASE
   descriptor: Enlightenment
-  model: 100
+  model: 10000
   min-multiplier: 0.10
   max-multiplier: 0.20
   rarity-multiplier: 0.5

@@ -2,7 +2,7 @@ damage_all:
   type: DAMAGE
   name: DAMAGE_ALL
   descriptor: Savage
-  model: 100
+  model: 10000
   min-damage: 0.01
   max-damage: 0.10
   rarity-multiplier: 0.5
@@ -15,7 +15,7 @@ damage_undead:
   type: DAMAGE
   name: DAMAGE_UNDEAD
   descriptor: Smiting
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -28,7 +28,7 @@ damage_beast:
   type: DAMAGE
   name: DAMAGE_BEAST
   descriptor: Slaying
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -41,7 +41,7 @@ damage_elements:
   type: DAMAGE
   name: DAMAGE_ELEMENTS
   descriptor: Disenchanting
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -54,7 +54,7 @@ damage_player:
   type: DAMAGE
   name: DAMAGE_PLAYER
   descriptor: Murderous
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -67,7 +67,7 @@ damage_swords:
   type: DAMAGE
   name: DAMAGE_SWORDS
   descriptor: Slashing
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -81,7 +81,7 @@ damage_axes:
   type: DAMAGE
   name: DAMAGE_AXES
   descriptor: Hacking
-  model: 100
+  model: 10000
   min-damage: 0.02
   max-damage: 0.20
   rarity-multiplier: 0.5
@@ -95,7 +95,7 @@ damage_nonweapons:
   type: DAMAGE
   name: DAMAGE_NONWEAPONS
   descriptor: Bashing
-  model: 100
+  model: 10000
   min-damage: 0.1
   max-damage: 1.0
   rarity-multiplier: 0.5
