@@ -3,8 +3,8 @@ damage_reduction_melee:
   name: DAMAGE_REDUCTION_MELEE
   descriptor: Parrying
   model: 120000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  min-reduction: 0.5
+  max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: melee
   target-materials: anything
@@ -17,8 +17,8 @@ damage_reduction_projectile:
   name: DAMAGE_REDUCTION_PROJECTILE
   descriptor: Deflecting
   model: 30000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  min-reduction: 0.5
+  max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: projectile
   target-materials: anything
@@ -31,8 +31,8 @@ damage_reduction_explosion:
   name: DAMAGE_REDUCTION_EXPLOSION
   descriptor: Reactive
   model: 20000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  min-reduction: 0.5
+  max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: explosion
   target-materials: anything
@@ -45,10 +45,10 @@ damage_reduction_falling:
   name: DAMAGE_REDUCTION_FALLING
   descriptor: Cushioning
   model: 70000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  min-reduction: 0.5
+  max-reduction: 0.10
   rarity-multiplier: 0.25
-  target-damage: explosion
+  target-damage: collision
   target-materials: anything
   base-experience:
     Ingenuity: 40
@@ -59,10 +59,10 @@ damage_reduction_heat:
   name: DAMAGE_REDUCTION_HEAT
   descriptor: Incombustible
   model: 80000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  min-reduction: 0.5
+  max-reduction: 0.10
   rarity-multiplier: 0.25
-  target-damage: collision
+  target-damage: heat
   target-materials: anything
   base-experience:
     Ingenuity: 40

@@ -17,8 +17,8 @@ chain_break_crops:
   name: CHAIN_BREAK_CROPS
   descriptor: Reaping
   model: 90000
-  min-blocks: 1
-  max-blocks: 20
+  min-blocks: 10
+  max-blocks: 25
   rarity-multiplier: 0.5
   target-blocks: crops-grown
   target-materials: hoes
@@ -45,8 +45,8 @@ chain_break_leaves:
   name: CHAIN_BREAK_LEAVES
   descriptor: Timbering
   model: 150000
-  min-blocks: 1
-  max-blocks: 20
+  min-blocks: 10
+  max-blocks: 25
   rarity-multiplier: 0.5
   target-blocks: logs
   target-materials: axes
