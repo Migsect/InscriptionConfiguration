@@ -1,0 +1,117 @@
+material-ingredient:
+  DIAMOND:
+    Ingenuity: 400
+  IRON_INGOT:
+    Ingenuity: 50
+  IRON_BLOCK:
+    Ingenuity: 450
+  GOLD_INGOT:
+    Ingenuity: 100
+  COBBLESTONE:
+    Ingenuity: 5
+  LEATHER:
+    Ingenuity: 8
+  OAK_WOOD:
+    Ingenuity: 1
+  BIRCH_WOOD:
+    Ingenuity: 1
+  SPRUCE_WOOD:
+    Ingenuity: 1
+  JUNGLE_WOOD:
+    Ingenuity: 1
+  DARK_OAK_WOOD:
+    Ingenuity: 1
+  ACACIA_WOOD:
+    Ingenuity: 1
+  OAK_PLANKS:
+    Ingenuity: 1
+  BIRCH_PLANKS:
+    Ingenuity: 1
+  SPRUCE_PLANKS:
+    Ingenuity: 1
+  JUNGLE_PLANKS:
+    Ingenuity: 1
+  DARK_OAK_PLANKS:
+    Ingenuity: 1
+  ACACIA_PLANKS:
+    Ingenuity: 1
+  OAK_LOG:
+    Ingenuity: 4
+  BIRCH_LOG:
+    Ingenuity: 4
+  SPRUCE_LOG:
+    Ingenuity: 4
+  JUNGLE_LOG:
+    Ingenuity: 4
+  DARK_OAK_LOG:
+    Ingenuity: 4
+  ACACIA_LOG:
+    Ingenuity: 4
+  PAPER:
+    Ingenuity: 1
+  WHITE_WOOL:
+    Ingenuity: 1
+  BLACK_WOOL:
+    Ingenuity: 3
+  GREEN_WOOL:
+    Ingenuity: 3
+  MAGENTA_WOOL:
+    Ingenuity: 3
+  ORANGE_WOOL:
+    Ingenuity: 3
+  PURPLE_WOOL:
+    Ingenuity: 3
+  RED_WOOL:
+    Ingenuity: 3
+  YELLOW_WOOL:
+    Ingenuity: 3
+  PURPLE_WOOL:
+    Ingenuity: 3
+  PINK_WOOL:
+    Ingenuity: 3
+  LIME_WOOL:
+    Ingenuity: 3
+  GRAY_WOOL:
+    Ingenuity: 3
+  CYAN_WOOL:
+    Ingenuity: 3
+  BROWN_WOOL:
+    Ingenuity: 3
+  LIGHT_GRAY_WOOL:
+    Ingenuity: 3
+  LIGHT_BLUE_WOOL:
+    Ingenuity: 3
+  REDSTONE:
+    Ingenuity: 15
+    Brilliance: 1
+  STONE:
+    Ingenuity: 5
+  GRANITE:
+    Ingenuity: 6
+  ANDESITE:
+    Ingenuity: 6
+  DIORITE:
+    Ingenuity: 6
+  OBSIDIAN:
+    Ingenuity: 80
+  QUARTZ:
+    Ingenuity: 10
+  FLINT:
+    Ingenuity: 3
+  GUNPOWDER:
+    Ingenuity: 5
+    Brilliance: 2
+  STRING:
+    Ingenuity: 1
+  GLASS:
+    Ingenuity: 3
+  CHARCOAL:
+    Ingenuity: 5
+  COAL:
+    Ingenuity: 20
+  WHEAT:
+    Ingenuity: 2
+  RED_MUSHROOM:
+    Ingenuity: 2
+  BROWN_MUSHROOM:
+    Ingenuity: 2
