@@ -7,10 +7,17 @@ entity-classes:
     name: undead
     entities: 
      - ZOMBIE
+     - ZOMBIE_VILLAGER
+     - DROWNED
+     - HUSK
+     - STRAY
+     - WITHER_SKELETON
+     - SKELETON_HORSE
      - SKELETON
      - PIG_ZOMBIE
      - WITHER
      - GHAST
+     - PHANTOM
   beast:
     name: beasts
     entities:
@@ -27,6 +34,8 @@ entity-classes:
      - WOLF
      - SQUID
      - RABBIT
+     - GUARDIAN
+     - ELDER_GUARDIAN
   elemental:
     name: elementals
     entities:
@@ -43,8 +52,25 @@ entity-classes:
      - WITCH
      - VILLAGER
      - PLAYER
+     - RAVAGER
+     - PILLAGER
+     - ILLUSIONER
+     - EVOKER
+  netherans:
+    name: netherans
+    entities:
+     - PIG_ZOMBIE
+     - GHAST
+     - MAGMA_CUBE
+  enderans:
+    name: enderans
+    entities:
+     - ENDERMAN
+     - ENDERMITE
+     - SHULKER
   bosses:
     name: bosses
     entities:
      - ENDER_DRAGON
      - WITHER
+     - ELDER_GUARDIAN

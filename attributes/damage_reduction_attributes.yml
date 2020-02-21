@@ -3,7 +3,7 @@ damage_reduction_melee:
   name: DAMAGE_REDUCTION_MELEE
   descriptor: Parrying
   model: 120000
-  min-reduction: 0.5
+  min-reduction: 0.05
   max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: melee
@@ -17,7 +17,7 @@ damage_reduction_projectile:
   name: DAMAGE_REDUCTION_PROJECTILE
   descriptor: Deflecting
   model: 30000
-  min-reduction: 0.5
+  min-reduction: 0.05
   max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: projectile
@@ -31,7 +31,7 @@ damage_reduction_explosion:
   name: DAMAGE_REDUCTION_EXPLOSION
   descriptor: Reactive
   model: 20000
-  min-reduction: 0.5
+  min-reduction: 0.05
   max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: explosion
@@ -45,7 +45,7 @@ damage_reduction_falling:
   name: DAMAGE_REDUCTION_FALLING
   descriptor: Cushioning
   model: 70000
-  min-reduction: 0.5
+  min-reduction: 0.05
   max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: collision
@@ -59,7 +59,7 @@ damage_reduction_heat:
   name: DAMAGE_REDUCTION_HEAT
   descriptor: Incombustible
   model: 80000
-  min-reduction: 0.5
+  min-reduction: 0.05
   max-reduction: 0.10
   rarity-multiplier: 0.25
   target-damage: heat

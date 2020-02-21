@@ -39,11 +39,9 @@ entity-damage:
     Valor: 3
   GUARDIAN:
     Valor: 10
-  ELDER_GUARDIAN:
+  PHANTOM:
     Valor: 10
   RAVAGER:
-    Valor: 10
-  PHANTOM:
     Valor: 10
   PILLAGER:
     Valor: 10
