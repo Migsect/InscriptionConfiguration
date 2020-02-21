@@ -1,5 +1,16 @@
 entity-kill:
   WITHER: 
-    Valor: 2400
+    distribute-radius: 160
+    split-distribution: true
+    experience:
+      Valor: 4800
   ENDER_DRAGON: 
-    Valor: 3000
+    distribute-radius: 160
+    split-distribution: true
+    experience:
+      Valor: 6000
+  ELDER_GUARDIAN:
+    distribute-radius: 160
+    split-distribution: true
+    experience:
+      Valor: 3000
