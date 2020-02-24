@@ -1,0 +1,33 @@
+elements:
+  FIRE:
+    display: Fire
+    chat-color: RED
+    model-increment: 2
+  WATER:
+    display: Water
+    chat-color: AQUA
+    model-increment: 7
+  AIR:
+    display: Air
+    chat-color: LIGHT_PURPLE
+    model-increment: 11
+  EARTH:
+    display: Earth
+    chat-color: GREEN
+    model-increment: 6
+  SHADOW:
+    display: Shadow
+    chat-color: DARK_GRAY
+    model-increment: 1
+  LIGHT:
+    display: Light
+    chat-color: YELLOW
+    model-increment: 4
+  TIME:
+    display: Time
+    chat-color: BLUE
+    model-increment: 10
+  SPACE:
+    display: Space
+    chat-color: DARK_PURPLE
+    model-increment: 12

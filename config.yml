@@ -40,3 +40,4 @@ placement-tracking:
 - QUARTZ_ORE
 - DIAMOND_ORE
 drop-consumables: true
+max-glyph-level: 100

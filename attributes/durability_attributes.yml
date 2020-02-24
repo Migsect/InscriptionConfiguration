@@ -2,7 +2,7 @@ durability_wood:
   type: DURABILITY
   name: DURABILITY_WOOD
   descriptor: Reinforcement
-  model: 150000
+  model-increment: 150000
   min-chance: 0.10
   max-chance: 0.90
   rarity-multiplier: 1.0
@@ -15,7 +15,7 @@ durability_stone:
   type: DURABILITY
   name: DURABILITY_STONE
   descriptor: Hardening
-  model: 60000
+  model-increment: 60000
   min-chance: 0.10
   max-chance: 0.50
   rarity-multiplier: 1.0
@@ -28,7 +28,7 @@ durability_iron:
   type: DURABILITY
   name: DURABILITY_IRON
   descriptor: Tempering
-  model: 100000
+  model-increment: 100000
   min-chance: 0.05
   max-chance: 0.25
   rarity-multiplier: 1.0
@@ -41,7 +41,7 @@ durability_gold:
   type: DURABILITY
   name: DURABILITY_GOLD
   descriptor: Enriching
-  model: 100000
+  model-increment: 100000
   min-chance: 0.05
   max-chance: 0.75
   rarity-multiplier: 1.0
@@ -54,7 +54,7 @@ durability_diamond:
   type: DURABILITY
   name: DURABILITY_DIAMOND
   descriptor: Crystalizing
-  model: 60000
+  model-increment: 60000
   min-chance: 0.01
   max-chance: 0.10
   rarity-multiplier: 1.0

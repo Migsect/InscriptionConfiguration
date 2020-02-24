@@ -2,7 +2,7 @@ chain_break_ore:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_ORE
   descriptor: Sapping
-  model: 100000
+  model-increment: 100000
   min-blocks: 1
   max-blocks: 5
   rarity-multiplier: 0.5
@@ -16,7 +16,7 @@ chain_break_crops:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_CROPS
   descriptor: Reaping
-  model: 90000
+  model-increment: 90000
   min-blocks: 10
   max-blocks: 25
   rarity-multiplier: 0.5
@@ -30,7 +30,7 @@ chain_break_wood:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_WOOD
   descriptor: Timbering
-  model: 40000
+  model-increment: 40000
   min-blocks: 1
   max-blocks: 10
   rarity-multiplier: 0.5
@@ -44,7 +44,7 @@ chain_break_leaves:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_LEAVES
   descriptor: Timbering
-  model: 150000
+  model-increment: 150000
   min-blocks: 10
   max-blocks: 25
   rarity-multiplier: 0.5
