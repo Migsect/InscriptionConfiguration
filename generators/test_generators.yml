@@ -14,6 +14,7 @@ test_generator:
     MAGICAL: 10
     RARE: 10
     MYTHIC: 10
+    FORBIDDEN: 10
   attribute-counts:
     '1': 10
   attributes:
@@ -23,3 +24,5 @@ test_generator:
     DAMAGE_REDUCTION_HEAT: 10
     CHAIN_BREAK_WOOD: 10
     EXPERIENCE_BONUS_BASE: 10
+    DAMAGE_ALL: 100
+    DAMAGE_UNDEAD: 100

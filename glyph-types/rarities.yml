@@ -36,6 +36,6 @@ rarities:
     model-increment: 800
   FORBIDDEN:
     display: Forbidden
-    chat-color: AQUA
+    chat-color: MAGIC
     rank: 10
     model-increment: 1700

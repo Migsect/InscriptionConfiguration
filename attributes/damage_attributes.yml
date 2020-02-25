@@ -7,6 +7,7 @@ damage_all:
   max-damage: 0.10
   rarity-multiplier: 0.5
   target-entities: creatures
+  target-materials: items
   base-experience:
     Valor: 60
   level-experience:
@@ -20,6 +21,7 @@ damage_undead:
   max-damage: 0.20
   rarity-multiplier: 0.5
   target-entities: undead
+  target-materials: items
   base-experience:
     Valor: 40
   level-experience:
@@ -33,6 +35,7 @@ damage_beast:
   max-damage: 0.20
   rarity-multiplier: 0.5
   target-entities: beasts
+  target-materials: items
   base-experience:
     Valor: 40
   level-experience:
@@ -46,6 +49,7 @@ damage_elements:
   max-damage: 0.20
   rarity-multiplier: 0.5
   target-entities: elementals
+  target-materials: items
   base-experience:
     Valor: 40
   level-experience:
@@ -59,6 +63,7 @@ damage_player:
   max-damage: 0.20
   rarity-multiplier: 0.5
   target-entities: denizens
+  target-materials: items
   base-experience:
     Valor: 40
   level-experience:

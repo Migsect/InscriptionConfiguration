@@ -19,7 +19,7 @@ material-classes:
      - pickaxes
      - shovels
      - hoes
-  nonweapons:
+  non-weapons:
     name: non-weapons
     inherited:
      - pickaxes
