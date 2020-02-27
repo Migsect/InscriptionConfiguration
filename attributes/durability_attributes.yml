@@ -8,7 +8,7 @@ durability_wood:
   rarity-multiplier: 1.0
   target-materials: wood-tools
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 durability_stone:
@@ -21,7 +21,7 @@ durability_stone:
   rarity-multiplier: 1.0
   target-materials: stone-tools
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 durability_iron:
@@ -34,7 +34,7 @@ durability_iron:
   rarity-multiplier: 1.0
   target-materials: iron-tools
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 durability_gold:
@@ -47,7 +47,7 @@ durability_gold:
   rarity-multiplier: 1.0
   target-materials: gold-tools
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 durability_diamond:
@@ -60,6 +60,6 @@ durability_diamond:
   rarity-multiplier: 1.0
   target-materials: diamond-tools
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5

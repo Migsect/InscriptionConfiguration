@@ -7,6 +7,6 @@ experience_bonus:
   max-multiplier: 0.20
   rarity-multiplier: 0.5
   base-experience:
-    Ingenuity: 80
+    Ingenuity: 40
   level-experience:
     Ingenuity: 10

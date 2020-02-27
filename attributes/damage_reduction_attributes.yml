@@ -51,7 +51,7 @@ damage_reduction_falling:
   target-damage: collision
   target-materials: anything
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 damage_reduction_heat:
@@ -65,7 +65,7 @@ damage_reduction_heat:
   target-damage: heat
   target-materials: anything
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 damage_reduction_falling_leather:
@@ -79,7 +79,7 @@ damage_reduction_falling_leather:
   target-damage: collision
   target-materials: leather-armor
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 damage_reduction_melee:
@@ -121,7 +121,7 @@ damage_reduction_heat_gold:
   target-damage: heat
   target-materials: golden-armor
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 damage_reduction_explosion:
@@ -135,6 +135,6 @@ damage_reduction_explosion:
   target-damage: explosion
   target-materials: diamond-armor
   base-experience:
-    Endurance: 40
+    Endurance: 25
   level-experience:
     Endurance: 5

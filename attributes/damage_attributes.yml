@@ -79,9 +79,9 @@ damage_swords:
   target-entities: creatures
   target-materials: swords
   base-experience:
-    Ingenuity: 40
+    Valor: 40
   level-experience:
-    Ingenuity: 5
+    Valor: 5
 damage_axes:
   type: DAMAGE
   name: DAMAGE_AXES
@@ -93,9 +93,9 @@ damage_axes:
   target-entities: creatures
   target-materials: axes
   base-experience:
-    Ingenuity: 40
+    Valor: 40
   level-experience:
-    Ingenuity: 5
+    Valor: 5
 damage_nonweapons:
   type: DAMAGE
   name: DAMAGE_NONWEAPONS

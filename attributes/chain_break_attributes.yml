@@ -9,7 +9,7 @@ chain_break_ore:
   target-blocks: ores
   target-materials: pickaxes
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 chain_break_crops:
@@ -23,7 +23,7 @@ chain_break_crops:
   target-blocks: crops-grown
   target-materials: hoes
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 chain_break_wood:
@@ -37,13 +37,13 @@ chain_break_wood:
   target-blocks: logs
   target-materials: axes
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
 chain_break_leaves:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_LEAVES
-  descriptor: Timbering
+  descriptor: Leafblowing
   model-increment: 150000
   min-blocks: 10
   max-blocks: 25
@@ -51,6 +51,6 @@ chain_break_leaves:
   target-blocks: logs
   target-materials: axes
   base-experience:
-    Ingenuity: 40
+    Ingenuity: 25
   level-experience:
     Ingenuity: 5
