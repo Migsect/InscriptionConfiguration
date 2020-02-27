@@ -17,22 +17,22 @@ rarities:
   EPIC:
     display: Epic 
     chat-color: DARK_PURPLE
-    rank: 4
+    rank: 3
     model-increment: 1300
   MYTHIC:
     display: Mythic
     chat-color: GOLD
-    rank: 5
+    rank: 4
     model-increment: 400
   LEGENDARY:
     display: Legendary
     chat-color: RED
-    rank: 6
+    rank: 5
     model-increment: 300
   ANCIENT:
     display: Ancient
     chat-color: AQUA
-    rank: 7
+    rank: 6
     model-increment: 800
   FORBIDDEN:
     display: Forbidden
