@@ -1,0 +1,28 @@
+waypoint-plains:
+  type: WAYPOINT
+  name: WAYPOINT_ANY
+  descriptor: Plainar
+  model-increment: 10000
+  min-amount: 1
+  max-amount: 2000
+  rarity-multiplier: 0.5
+  from-biome-class: grassland
+  to-biome-class: any
+  base-experience:
+    Endurance: 40
+  level-experience:
+    Endurance: 5
+waypoint-plains:
+  type: WAYPOINT
+  name: WAYPOINT_PLAINS
+  descriptor: Endric
+  model-increment: 10000
+  min-amount: 1
+  max-amount: 10000
+  rarity-multiplier: 0.5
+  from-biome-class: any
+  to-biome-class: any
+  base-experience:
+    Endurance: 40
+  level-experience:
+    Endurance: 5

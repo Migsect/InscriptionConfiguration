@@ -1,0 +1,53 @@
+biome-classes:
+  any:
+    name: any
+    inherited:
+     - GLOBAL
+  artic:
+    name: artic
+    biomes:
+     - SNOWY_BEACH
+     - SNOWY_MOUNTAINS
+     - SNOWY_TAIGA
+     - SNOWY_TAIGA_HILLS
+     - SNOWY_TAIGA_MOUNTAINS
+     - SNOWY_TUNDRA
+     - FROZEN_RIVER
+     - FROZEN_OCEAN
+     - DEEP_FROZEN_OCEAN
+     - DEEP_COLD_OCEAN
+     - COLD_OCEAN
+     - ICE_SPIKES
+  grassland:
+    name: grassland
+    biomes:
+     - PLAINS
+     - SAVANNA
+     - SAVANNA_PLATEAU
+     - SHATTERED_SAVANNA
+     - SHATTERED_SAVANNA_PLATEAU
+  forest:
+    name: forest
+    biomes:
+     - BIRCH_FOREST
+     - BIRCH_FOREST_HILLS
+     - TALL_BIRCH_FOREST
+     - TALL_BIRCH_HILLS
+     - FLOWER_FOREST
+     - FOREST
+     - DARK_FOREST_HILLS
+     - DARK_FOREST
+     - WOODED_BADLANDS_PLATEAU
+     - WOODED_HILLS
+     - WOODED_MOUNTAINS
+     - TAIGA_HILLS
+     - TAIGA
+     - GIANT_SPRUCE_TAIGA
+     - GIANT_SPRUCE_TAIGA_HILLS
+     - GIANT_TREE_TAIGA
+     - GIANT_TREE_TAIGA_HILLS
+  swamp:
+    name: swamp
+    biomes:
+     - SWAMP_HILLS
+     - SWAMP
