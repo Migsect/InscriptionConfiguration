@@ -1,28 +1,140 @@
-waypoint-plains:
+waypoint-any:
   type: WAYPOINT
   name: WAYPOINT_ANY
-  descriptor: Plainar
+  descriptor: Traveling
   model-increment: 10000
-  min-amount: 1
-  max-amount: 2000
-  rarity-multiplier: 0.5
-  from-biome-class: grassland
-  to-biome-class: any
-  base-experience:
-    Endurance: 40
-  level-experience:
-    Endurance: 5
-waypoint-plains:
-  type: WAYPOINT
-  name: WAYPOINT_PLAINS
-  descriptor: Endric
-  model-increment: 10000
-  min-amount: 1
-  max-amount: 10000
-  rarity-multiplier: 0.5
+  min-amount: 128
+  max-amount: 320
+  rarity-multiplier: 0.25
   from-biome-class: any
   to-biome-class: any
   base-experience:
-    Endurance: 40
+    Discovery: 40
   level-experience:
-    Endurance: 5
+    Discovery: 5
+waypoint-plains:
+  type: WAYPOINT
+  name: WAYPOINT_PLAINS
+  descriptor: Plainar
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: grassland
+  to-biome-class: grassland
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-ocean:
+  type: WAYPOINT
+  name: WAYPOINT_AQUATIC
+  descriptor: Voyaging
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: aquatic
+  to-biome-class: aquatic
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-nether:
+  type: WAYPOINT
+  name: WAYPOINT_NETHER
+  descriptor: Portaling
+  model-increment: 10000
+  min-amount: 16
+  max-amount: 160
+  rarity-multiplier: 0.50
+  from-biome-class: nether
+  to-biome-class: nether
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-nether:
+  type: WAYPOINT
+  name: WAYPOINT_ARTIC
+  descriptor: Sliding
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: artic
+  to-biome-class: artic
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-nether:
+  type: WAYPOINT
+  name: WAYPOINT_JUNGLE
+  descriptor: Macheting
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: jungle
+  to-biome-class: jungle
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-nether:
+  type: WAYPOINT
+  name: WAYPOINT_SWAMP
+  descriptor: Marshing
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: swamp
+  to-biome-class: swamp
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-astral:
+  type: WAYPOINT
+  name: WAYPOINT_ASTRAL
+  descriptor: Astral
+  model-increment: 10000
+  min-amount: 512
+  max-amount: 5120
+  rarity-multiplier: 0.50
+  from-biome-class: end
+  to-biome-class: overworld
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-astral:
+  type: WAYPOINT
+  name: WAYPOINT_BADLANDS
+  descriptor: Trekking
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: badlands
+  to-biome-class: badlands
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5
+waypoint-astral:
+  type: WAYPOINT
+  name: WAYPOINT_DESERT
+  descriptor: Hotfooting
+  model-increment: 10000
+  min-amount: 128
+  max-amount: 1280
+  rarity-multiplier: 0.50
+  from-biome-class: desert
+  to-biome-class: desert
+  base-experience:
+    Discovery: 40
+  level-experience:
+    Discovery: 5

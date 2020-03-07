@@ -5,10 +5,7 @@ test_generator:
   min-level: 1
   max-level: 100
   elements:
-    AIR: 10
-    FIRE: 10
-    EARTH: 10
-    WATER: 10
+    SPACE: 10
   rarities:
     COMMON: 10
     MAGICAL: 10
@@ -18,5 +15,13 @@ test_generator:
   attribute-counts:
     '1': 10
   attributes:
-    WAYPOINT_PLAINS: 10
     WAYPOINT_ANY: 10
+    WAYPOINT_PLAINS: 10
+    WAYPOINT_AQUATIC: 10
+    WAYPOINT_NETHER: 10
+    WAYPOINT_ARTIC: 10
+    WAYPOINT_JUNGLE: 10
+    WAYPOINT_SWAMP: 10
+    WAYPOINT_ASTRAL: 10
+    WAYPOINT_BADLANDS: 10
+    WAYPOINT_DESERT: 10

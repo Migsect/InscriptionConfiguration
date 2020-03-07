@@ -41,3 +41,7 @@ placement-tracking:
 - DIAMOND_ORE
 drop-consumables: true
 max-glyph-level: 100
+min-waypoint-failure-chance: 0
+max-waypoint-failure-chance: 100
+base-waypoint-distance: 64
+waypoint-failure-exponent-base: 2

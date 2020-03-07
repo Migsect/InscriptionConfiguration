@@ -3,6 +3,27 @@ biome-classes:
     name: any
     inherited:
      - GLOBAL
+  overworld:
+    name: overworld
+    inherit:
+     - artic
+     - shore
+     - river
+     - grassland
+     - forest
+     - swamp
+     - jungle
+     - mountain
+     - badlands
+     - ocean
+     - taiga
+     - mushroom
+  aquatic:
+    name: aquatic
+    inherit:
+     - river
+     - shore
+     - ocean
   artic:
     name: artic
     biomes:
@@ -15,39 +36,121 @@ biome-classes:
      - FROZEN_RIVER
      - FROZEN_OCEAN
      - DEEP_FROZEN_OCEAN
-     - DEEP_COLD_OCEAN
-     - COLD_OCEAN
      - ICE_SPIKES
+  shore:
+    name: shore
+    biomes:
+     - STONE_SHORE
+     - BEACH
+     - SNOWY_BEACH
+     - MUSHROOM_FIELD_SHORE
+  river:
+    name: river
+    biomes:
+     - RIVER
+     - FROZEN_RIVER
   grassland:
     name: grassland
     biomes:
-     - PLAINS
      - SAVANNA
      - SAVANNA_PLATEAU
      - SHATTERED_SAVANNA
      - SHATTERED_SAVANNA_PLATEAU
+     - PLAINS
+     - SUNFLOWER_PLAINS
   forest:
     name: forest
     biomes:
-     - BIRCH_FOREST
-     - BIRCH_FOREST_HILLS
-     - TALL_BIRCH_FOREST
-     - TALL_BIRCH_HILLS
      - FLOWER_FOREST
      - FOREST
-     - DARK_FOREST_HILLS
+     - BIRCH_FOREST
+     - BIRCH_FOREST_HILLS
      - DARK_FOREST
-     - WOODED_BADLANDS_PLATEAU
+     - DARK_FOREST_HILLS
      - WOODED_HILLS
-     - WOODED_MOUNTAINS
-     - TAIGA_HILLS
-     - TAIGA
-     - GIANT_SPRUCE_TAIGA
-     - GIANT_SPRUCE_TAIGA_HILLS
-     - GIANT_TREE_TAIGA
-     - GIANT_TREE_TAIGA_HILLS
+     - TALL_BIRCH_FOREST
+     - TALL_BIRCH_HILLS
   swamp:
     name: swamp
     biomes:
      - SWAMP_HILLS
      - SWAMP
+  jungle:
+    name: jungle
+    biomes:
+     - MODIFIED_JUNGLE
+     - MODIFIED_JUNGLE_EDGE
+     - BAMBOO_JUNGLE
+     - BAMBOO_JUNGLE_HILLS
+     - JUNGLE
+     - JUNGLE_EDGE
+     - JUNGLE_HILLS
+  nether:
+    name: nether
+    biomes:
+     - NETHER
+  end:
+    name: end
+    biomes:
+     - THE_END
+     - SMALL_END_ISLANDS
+     - END_BARRENS
+     - END_HIGHLANDS
+     - END_MIDLANDS
+  void:
+    name: void
+    biomes:
+     - THE_VOID
+  badlands:
+    name: badlands
+    biomes:
+     - MODIFIED_BADLANDS_PLATEAU
+     - MODIFIED_WOODED_BADLANDS_PLATEAU
+     - WOODED_BADLANDS_PLATEAU
+     - BADLANDS
+     - BADLANDS_PLATEAU
+     - ERODED_BADLANDS
+  mountain:
+    name: mountain
+    biomes:
+     - MOUNTAIN_EDGE
+     - MOUNTAINS
+     - GRAVELLY_MOUNTAINS
+     - WOODED_MOUNTAINS
+     - MODIFIED_GRAVELLY_MOUNTAINS
+     - TAIGA_MOUNTAINS
+  desert:
+    name: desert
+    biomes: 
+     - DESERT
+     - DESERT_HILLS
+     - DESERT_LAKES
+  mushroom:
+    name: mushroom
+    biomes:
+     - MUSHROOM_FIELD_SHORE
+     - MUSHROOM_FIELDS
+  ocean:
+    name: ocean
+    biomes:
+     - OCEAN
+     - COLD_OCEAN
+     - DEEP_COLD_OCEAN
+     - DEEP_FROZEN_OCEAN
+     - DEEP_LUKEWARM_OCEAN
+     - DEEP_OCEAN
+     - DEEP_WARM_OCEAN
+     - FROZEN_OCEAN
+     - LUKEWARM_OCEAN
+     - WARM_OCEAN
+  taiga:
+    name: taiga
+    biomes:
+     - TAIGA
+     - TAIGA_HILLS
+     - GIANT_SPRUCE_TAIGA
+     - GIANT_SPRUCE_TAIGA_HILLS
+     - GIANT_TREE_TAIGA
+     - GIANT_TREE_TAIGA_HILLS
+     - TAIGA_MOUNTAINS
+
