@@ -45,3 +45,8 @@ min-waypoint-failure-chance: 0
 max-waypoint-failure-chance: 100
 base-waypoint-distance: 64
 waypoint-failure-exponent-base: 2
+experience-sources:
+  chunk-explore:
+    explore-radius: 2
+    max-inhabited-time: 72000
+    max-inhabited-reduction: 0.75

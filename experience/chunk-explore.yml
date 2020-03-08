@@ -1,0 +1,153 @@
+chunk-explore:
+  DEFAULT: 
+    Discovery: 100
+  BADLANDS:
+    Discovery: 100
+  BADLANDS_PLATEAU:
+    Discovery: 100
+  BAMBOO_JUNGLE:
+    Discovery: 100
+  BAMBOO_JUNGLE_HILLS:
+    Discovery: 100
+  BEACH:
+    Discovery: 100
+  BIRCH_FOREST:
+    Discovery: 100
+  BIRCH_FOREST_HILLS:
+    Discovery: 100
+  COLD_OCEAN:
+    Discovery: 100
+  DARK_FOREST:
+    Discovery: 100
+  DARK_FOREST_HILLS:
+    Discovery: 100
+  DEEP_COLD_OCEAN:
+    Discovery: 100
+  DEEP_FROZEN_OCEAN:
+    Discovery: 100
+  DEEP_LUKEWARM_OCEAN:
+    Discovery: 100
+  DEEP_OCEAN:
+    Discovery: 100
+  DEEP_WARM_OCEAN:
+    Discovery: 100
+  DESERT:
+    Discovery: 100
+  DESERT_HILLS:
+    Discovery: 100
+  DESERT_LAKES:
+    Discovery: 100
+  END_BARRENS:
+    Discovery: 100
+  END_HIGHLANDS:
+    Discovery: 100
+  END_MIDLANDS:
+    Discovery: 100
+  ERODED_BADLANDS:
+    Discovery: 100
+  FLOWER_FOREST:
+    Discovery: 100
+  FOREST:
+    Discovery: 100
+  FROZEN_OCEAN:
+    Discovery: 100
+  FROZEN_RIVER:
+    Discovery: 100
+  GIANT_SPRUCE_TAIGA:
+    Discovery: 100
+  GIANT_SPRUCE_TAIGA_HILLS:
+    Discovery: 100
+  GIANT_TREE_TAIGA:
+    Discovery: 100
+  GIANT_TREE_TAIGA_HILLS:
+    Discovery: 100
+  GRAVELLY_MOUNTAINS:
+    Discovery: 100
+  ICE_SPIKES:
+    Discovery: 100
+  JUNGLE:
+    Discovery: 100
+  JUNGLE_EDGE:
+    Discovery: 100
+  JUNGLE_HILLS:
+    Discovery: 100
+  LUKEWARM_OCEAN:
+    Discovery: 100
+  MODIFIED_BADLANDS_PLATEAU:
+    Discovery: 100
+  MODIFIED_GRAVELLY_MOUNTAINS:
+    Discovery: 100
+  MODIFIED_JUNGLE:
+    Discovery: 100
+  MODIFIED_JUNGLE_EDGE:
+    Discovery: 100
+  MODIFIED_WOODED_BADLANDS_PLATEAU:
+    Discovery: 100
+  MOUNTAIN_EDGE:
+    Discovery: 100
+  MOUNTAINS:
+    Discovery: 100
+  MUSHROOM_FIELD_SHORE:
+    Discovery: 100
+  MUSHROOM_FIELDS:
+    Discovery: 100
+  NETHER:
+    Discovery: 100
+  OCEAN:
+    Discovery: 100
+  PLAINS:
+    Discovery: 100
+  RIVER:
+    Discovery: 100
+  SAVANNA:
+    Discovery: 100
+  SAVANNA_PLATEAU:
+    Discovery: 100
+  SHATTERED_SAVANNA:
+    Discovery: 100
+  SHATTERED_SAVANNA_PLATEAU:
+    Discovery: 100
+  SMALL_END_ISLANDS:
+    Discovery: 100
+  SNOWY_BEACH:
+    Discovery: 100
+  SNOWY_MOUNTAINS:
+    Discovery: 100
+  SNOWY_TAIGA:
+    Discovery: 100
+  SNOWY_TAIGA_HILLS:
+    Discovery: 100
+  SNOWY_TAIGA_MOUNTAINS:
+    Discovery: 100
+  SNOWY_TUNDRA:
+    Discovery: 100
+  STONE_SHORE:
+    Discovery: 100
+  SUNFLOWER_PLAINS:
+    Discovery: 100
+  SWAMP:
+    Discovery: 100
+  SWAMP_HILLS:
+    Discovery: 100
+  TAIGA:
+    Discovery: 100
+  TAIGA_HILLS:
+    Discovery: 100
+  TAIGA_MOUNTAINS:
+    Discovery: 100
+  TALL_BIRCH_FOREST:
+    Discovery: 100
+  TALL_BIRCH_HILLS:
+    Discovery: 100
+  THE_END:
+    Discovery: 100
+  THE_VOID:
+    Discovery: 100
+  WARM_OCEAN:
+    Discovery: 100
+  WOODED_BADLANDS_PLATEAU:
+    Discovery: 100
+  WOODED_HILLS:
+    Discovery: 100
+  WOODED_MOUNTAINS:
+    Discovery: 100
