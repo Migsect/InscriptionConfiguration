@@ -49,7 +49,7 @@ chain_break_leaves:
   max-blocks: 25
   rarity-multiplier: 0.5
   target-blocks: logs
-  target-materials: axes
+  target-materials: any
   base-experience:
     Ingenuity: 25
   level-experience:

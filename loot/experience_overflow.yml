@@ -1,18 +1,22 @@
 experience-overflow-drops:
   valor-overflow:
-    generator: GENERATOR_COMMON
+    generator: GENERATOR_VALOR
     experience: 
       Valor: 1000
   endurance-overflow:
-    generator: GENERATOR_COMMON
+    generator: GENERATOR_ENDURANCE
     experience: 
       Endurance: 1000
   brilliance-overflow:
     generator: GENERATOR_COMMON
     experience: 
       Brilliance: 1000
+  discovery-overflow:
+    generator: GENERATOR_DISCOVERY
+    experience: 
+      Discovery: 1000
   ingenuity-overflow:
-    generator: GENERATOR_COMMON
+    generator: GENERATOR_INGENUITY
     experience: 
       Ingenuity: 1000
   

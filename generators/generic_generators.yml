@@ -49,14 +49,10 @@ rare_generator:
     FIRE: 10
     EARTH: 10
     WATER: 10
-    LIGHT: 10
-    SHADOW: 10
-    TIME: 10
-    SPACE: 10
   rarities:
     MAGICAL: 1000
     RARE: 500
-    MYTHIC: 50
+    EPIC: 50
   attribute-counts:
     '1': 1000
     '2': 1
@@ -103,7 +99,7 @@ boss_generator:
     TIME: 10
     SPACE: 10
   rarities:
-    RARE: 5
+    EPIC: 5
     MYTHIC: 1
   attribute-counts:
     '1': 10

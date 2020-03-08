@@ -34,6 +34,11 @@ entity-classes:
      - WOLF
      - SQUID
      - RABBIT
+     - DOLPHIN
+     - PANDA
+     - POLAR_BEAR
+     - TRADER_LLAMA
+     - LLAMA
      - GUARDIAN
      - ELDER_GUARDIAN
   elemental:
@@ -74,3 +79,14 @@ entity-classes:
      - ENDER_DRAGON
      - WITHER
      - ELDER_GUARDIAN
+  aquatic:
+    name: aquatic
+    entities:
+     - DROWNED
+     - GUARDIAN
+     - ELDER_GUARDIAN
+     - PUFFERFISH
+     - TROPICAL_FISH
+     - SALMON
+     - SQUID
+     - DOLPHIN 

@@ -8,9 +8,9 @@ durability_wood:
   rarity-multiplier: 1.0
   target-materials: wood-tools
   base-experience:
-    Ingenuity: 25
+    Endurance: 45
   level-experience:
-    Ingenuity: 5
+    Endurance: 5
 durability_stone:
   type: DURABILITY
   name: DURABILITY_STONE
@@ -21,9 +21,9 @@ durability_stone:
   rarity-multiplier: 1.0
   target-materials: stone-tools
   base-experience:
-    Ingenuity: 25
+    Endurance: 45
   level-experience:
-    Ingenuity: 5
+    Endurance: 5
 durability_iron:
   type: DURABILITY
   name: DURABILITY_IRON

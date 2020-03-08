@@ -1,0 +1,123 @@
+GENERATOR_ENDURANCE:
+  type-name: GENERATOR_ENDURANCE
+  display-name: Endurance
+  model: 105
+  min-level: 1
+  max-level: 1
+  elements:
+    AIR: 10
+    FIRE: 10
+    EARTH: 10
+    WATER: 10
+  rarities:
+    COMMON: 32000
+    MAGICAL: 8000
+    RARE: 1000
+    EPIC: 100
+    MYHTIC: 1
+  attribute-counts:
+    '1': 10
+  attributes:
+    BLOCK_BONUS_ORE: 10
+    BLOCK_BONUS_GEMS: 10
+    BLOCK_BONUS_METALS: 10
+    BLOCK_BONUS_WOOD: 10
+    BLOCK_BONUS_CROPS: 10
+    DAMAGE_REDUCTION_EXPLOSION: 2
+    DAMAGE_REDUCTION_EXPLOSION_DIAMOND: 2
+    DURABILITY_WOOD: 2
+    DURABILITY_STONE: 5
+GENERATOR_VALOR:
+  type-name: GENERATOR_VALOR
+  display-name: Valor
+  model: 101
+  min-level: 1
+  max-level: 1
+  elements:
+    AIR: 10
+    FIRE: 10
+    EARTH: 10
+    WATER: 10
+  rarities:
+    COMMON: 32000
+    MAGICAL: 8000
+    RARE: 1000
+    EPIC: 100
+    MYHTIC: 1
+  attribute-counts:
+    '1': 10
+  attributes:
+    DAMAGE_ALL: 10
+    DAMAGE_UNDEAD: 10
+    DAMAGE_BEAST: 5
+    DAMAGE_ELEMENTS: 2
+    DAMAGE_PLAYER: 2
+    DAMAGE_SWORDS: 5
+    DAMAGE_AXES: 5
+    DAMAGE_REDUCTION_MELEE: 10
+    DAMAGE_REDUCTION_PROJECTILE: 10
+    DAMAGE_REDUCTION_MELEE_CHAINMAIL: 5
+    DAMAGE_REDUCTION_PROJECTILE_IRON: 5
+GENERATOR_INGENUITY:
+  type-name: GENERATOR_INGENUITY
+  display-name: Ingenuity
+  model: 112
+  min-level: 1
+  max-level: 1
+  elements:
+    AIR: 10
+    FIRE: 10
+    EARTH: 10
+    WATER: 10
+  rarities:
+    COMMON: 32000
+    MAGICAL: 8000
+    RARE: 1000
+    EPIC: 100
+    MYHTIC: 1
+  attribute-counts:
+    '1': 10
+  attributes:
+    CHAIN_BREAK_ORE: 10
+    CHAIN_BREAK_CROPS: 5
+    CHAIN_BREAK_WOOD: 10
+    CHAIN_BREAK_LEAVES: 5
+    DAMAGE_NONWEAPONS: 2
+    DAMAGE_REDUCTION_FALLING: 5
+    DAMAGE_REDUCTION_FALLING_LEATHER: 5
+    DAMAGE_REDUCTION_HEAT: 5
+    DAMAGE_REDUCTION_HEAT_GOLD: 5
+    DURABILITY_IRON: 5
+    DURABILITY_GOLD: 5
+    DURABILITY_DIAMOND: 5
+GENERATOR_DISCOVERY:
+  type-name: GENERATOR_DISCOVERY
+  display-name: Discovery
+  model: 103
+  min-level: 1
+  max-level: 1
+  elements:
+    AIR: 10
+    FIRE: 10
+    EARTH: 10
+    WATER: 10
+  rarities:
+    COMMON: 32000
+    MAGICAL: 8000
+    RARE: 1000
+    EPIC: 100
+    MYHTIC: 1
+  attribute-counts:
+    '1': 10
+  attributes:
+    EXPERIENCE_BONUS_BASE: 10
+    WAYPOINT_ANY: 10
+    WAYPOINT_PLAINS: 2
+    WAYPOINT_AQUATIC: 10
+    WAYPOINT_NETHER: 10
+    WAYPOINT_ARTIC: 21
+    WAYPOINT_JUNGLE: 2
+    WAYPOINT_SWAMP: 2
+    WAYPOINT_ASTRAL: 10
+    WAYPOINT_BADLANDS: 2
+    WAYPOINT_DESERT: 2
