@@ -54,7 +54,7 @@ waypoint-nether:
     Discovery: 40
   level-experience:
     Discovery: 5
-waypoint-nether:
+waypoint-artic:
   type: WAYPOINT
   name: WAYPOINT_ARTIC
   descriptor: Sliding
@@ -68,7 +68,7 @@ waypoint-nether:
     Discovery: 40
   level-experience:
     Discovery: 5
-waypoint-nether:
+waypoint-jungle:
   type: WAYPOINT
   name: WAYPOINT_JUNGLE
   descriptor: Macheting
@@ -82,7 +82,7 @@ waypoint-nether:
     Discovery: 40
   level-experience:
     Discovery: 5
-waypoint-nether:
+waypoint-swamp:
   type: WAYPOINT
   name: WAYPOINT_SWAMP
   descriptor: Marshing
@@ -110,7 +110,7 @@ waypoint-astral:
     Discovery: 40
   level-experience:
     Discovery: 5
-waypoint-astral:
+waypoint-badlands:
   type: WAYPOINT
   name: WAYPOINT_BADLANDS
   descriptor: Trekking
@@ -124,7 +124,7 @@ waypoint-astral:
     Discovery: 40
   level-experience:
     Discovery: 5
-waypoint-astral:
+waypoint-desert:
   type: WAYPOINT
   name: WAYPOINT_DESERT
   descriptor: Hotfooting

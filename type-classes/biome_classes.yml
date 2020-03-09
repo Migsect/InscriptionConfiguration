@@ -5,7 +5,7 @@ biome-classes:
      - GLOBAL
   overworld:
     name: overworld
-    inherit:
+    inherited:
      - artic
      - shore
      - river
@@ -20,7 +20,7 @@ biome-classes:
      - mushroom
   aquatic:
     name: aquatic
-    inherit:
+    inherited:
      - river
      - shore
      - ocean
