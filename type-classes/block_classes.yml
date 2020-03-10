@@ -1,0 +1,69 @@
+block-classes:
+  all:
+    name: blocks
+    inherited:
+     - GLOBAL
+  anything:
+    name: anything
+    inherited:
+     - GLOBAL
+  crops:
+    name: crops
+    materials:
+     - "minecraft:wheat"
+     - "minecraft:potatoes"
+     - "minecraft:carrots"
+     - "minecraft:beetroots"
+     - "minecraft:sugar_cane"
+     - "minecraft:melon"
+     - "minecraft:pumpkin"
+  crops_grown:
+    name: crops-grown
+    materials:
+     - "minecraft:wheat[age=7]"
+     - "minecraft:potatoes[age=7]"
+     - "minecraft:carrots[age=7]"
+     - "minecraft:beetroots[age=3]"
+     - "minecraft:sugar_cane"
+     - "minecraft:melon"
+     - "minecraft:pumpkin"
+  logs:
+    name: logs
+    materials:
+     - "minecraft:oak_log"
+     - "minecraft:birch_log"
+     - "minecraft:spruce_log"
+     - "minecraft:jungle_log"
+     - "minecraft:dark_oak_log"
+     - "minecraft:acacia_log"
+  leaves:
+    name: leaves
+    materials:
+     - "minecraft:oak_leaves"
+     - "minecraft:birch_leaves"
+     - "minecraft:spruce_leaves"
+     - "minecraft:jungle_leaves"
+     - "minecraft:dark_oak_leaves"
+     - "minecraft:acacia_leaves"
+  ores:
+    name: ores
+    inherited:
+     - gems
+     - minerals
+     - metals
+  gems:
+    name: gems
+    materials:
+     - "minecraft:emerald_ore"
+     - "minecraft:diamond_ore"
+     - "minecraft:nether_quartz_ore"
+  minerals:
+    name: minerals
+    materials: 
+     - "minecraft:lapis_ore"
+     - "minecraft:coal_ore"
+  metals:
+    name: metals
+    materials:
+     - "minecraft:iron_ore"
+     - "minecraft:gold_ore"
