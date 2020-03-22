@@ -3,63 +3,104 @@ durability_wood:
   name: DURABILITY_WOOD
   descriptor: Reinforcement
   model-increment: 150000
-  min-chance: 0.10
-  max-chance: 0.90
-  rarity-multiplier: 1.0
-  target-materials: wood-tools
+  
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.5
   base-experience:
-    Endurance: 45
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: wood-tools
+
 durability_stone:
   type: DURABILITY
   name: DURABILITY_STONE
   descriptor: Hardening
   model-increment: 60000
-  min-chance: 0.10
-  max-chance: 0.50
-  rarity-multiplier: 1.0
-  target-materials: stone-tools
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.5
   base-experience:
-    Endurance: 45
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100 
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: stone-tools
+
 durability_iron:
   type: DURABILITY
   name: DURABILITY_IRON
   descriptor: Tempering
   model-increment: 100000
-  min-chance: 0.05
-  max-chance: 0.25
-  rarity-multiplier: 1.0
-  target-materials: iron-tools
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Ingenuity: 25
+    Ingenuity: 50
+    Endurance: 50
   level-experience:
-    Ingenuity: 5
+    Ingenuity: 50
+    Endurance: 50
+
+  effect-min: 0.10
+  effect-max: 0.30
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: iron-tools
+
 durability_gold:
   type: DURABILITY
   name: DURABILITY_GOLD
   descriptor: Enriching
   model-increment: 100000
-  min-chance: 0.05
-  max-chance: 0.75
-  rarity-multiplier: 1.0
-  target-materials: gold-tools
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Ingenuity: 25
+    Ingenuity: 100
   level-experience:
-    Ingenuity: 5
+    Ingenuity: 100
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: gold-tools
+
 durability_diamond:
   type: DURABILITY
   name: DURABILITY_DIAMOND
   descriptor: Crystalizing
   model-increment: 60000
-  min-chance: 0.01
-  max-chance: 0.10
-  rarity-multiplier: 1.0
-  target-materials: diamond-tools
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Ingenuity: 25
+    Ingenuity: 100
   level-experience:
-    Ingenuity: 5
+    Ingenuity: 100
+
+  effect-min: 0.05
+  effect-max: 0.15
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: diamond-tools

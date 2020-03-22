@@ -3,110 +3,181 @@ damage_all:
   name: DAMAGE_ALL
   descriptor: Savage
   model-increment: 140000
-  min-damage: 0.01
-  max-damage: 0.10
-  rarity-multiplier: 0.5
-  target-entities: creatures
-  target-materials: items
+  
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 60
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.02
+  effect-max: 0.10
+
 damage_undead:
   type: DAMAGE
   name: DAMAGE_UNDEAD
   descriptor: Smiting
   model-increment: 140000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: undead
-  target-materials: items
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.05
+  effect-max: 0.20
+  conditions:
+    target-entity:
+      entity-class: undead
+  
 damage_beast:
   type: DAMAGE
   name: DAMAGE_BEAST
   descriptor: Slaying
   model-increment: 140000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: beasts
-  target-materials: items
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.40
+  conditions:
+    target-entity:
+      entity-class: beasts
+
 damage_elements:
   type: DAMAGE
   name: DAMAGE_ELEMENTS
   descriptor: Disenchanting
   model-increment: 140000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: elementals
-  target-materials: items
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.40
+  conditions:
+    target-entity:
+      entity-class: elementals
+
 damage_player:
   type: DAMAGE
   name: DAMAGE_PLAYER
   descriptor: Murderous
   model-increment: 140000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: denizens
-  target-materials: items
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.30
+  conditions:
+    target-entity:
+      entity-class: denizens
+  
 damage_swords:
   type: DAMAGE
   name: DAMAGE_SWORDS
   descriptor: Slashing
   model-increment: 140000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: creatures
-  target-materials: swords
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.05
+  effect-max: 0.20
+  conditions:
+    player-while-using-material:
+      material-class: swords
+    target-entity:
+      entity-class: creatures
+
 damage_axes:
   type: DAMAGE
   name: DAMAGE_AXES
   descriptor: Hacking
   model-increment: 40000
-  min-damage: 0.02
-  max-damage: 0.20
-  rarity-multiplier: 0.5
-  target-entities: creatures
-  target-materials: axes
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.05
+  effect-max: 0.20
+  conditions:
+    player-while-using-material:
+      material-class: axes
+    target-entity:
+      entity-class: creatures
+
 damage_nonweapons:
   type: DAMAGE
   name: DAMAGE_NONWEAPONS
   descriptor: Bashing
   model-increment: 10000
-  min-damage: 0.1
-  max-damage: 1.0
-  rarity-multiplier: 0.5
-  target-entities: creatures
-  target-materials: non-weapons
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Ingenuity: 40
+    Valor: 100
   level-experience:
-    Ingenuity: 5
+    Valor: 100
+
+  effect-min: 0.20
+  effect-max: 1.00
+  conditions:
+    player-while-using-material:
+      material-class: non-weapons
+    target-entity:
+      entity-class: creatures
+
+damage_lowlife:
+  type: DAMAGE
+  name: DAMAGE_LOWLIFE
+  descriptor: Ferocious
+  model-increment: 10000
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+  base-experience:
+    Valor: 100
+  level-experience:
+    Valor: 100
+
+  effect-min: 0.20
+  effect-max: 0.40
+  conditions:
+    player-while-life:
+      mode: AT_MOST
+      value: 4.0

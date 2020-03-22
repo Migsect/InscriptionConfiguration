@@ -14,7 +14,7 @@ GENERATOR_ENDURANCE:
     MAGICAL: 8000
     RARE: 1000
     EPIC: 100
-    MYHTIC: 1
+    MYTHIC: 1
   attribute-counts:
     '1': 10
   attributes:
@@ -43,7 +43,7 @@ GENERATOR_VALOR:
     MAGICAL: 8000
     RARE: 1000
     EPIC: 100
-    MYHTIC: 1
+    MYTHIC: 1
   attribute-counts:
     '1': 10
   attributes:
@@ -74,7 +74,7 @@ GENERATOR_INGENUITY:
     MAGICAL: 8000
     RARE: 1000
     EPIC: 100
-    MYHTIC: 1
+    MYTHIC: 1
   attribute-counts:
     '1': 10
   attributes:
@@ -106,7 +106,7 @@ GENERATOR_DISCOVERY:
     MAGICAL: 8000
     RARE: 1000
     EPIC: 100
-    MYHTIC: 1
+    MYTHIC: 1
   attribute-counts:
     '1': 10
   attributes:

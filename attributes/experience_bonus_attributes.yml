@@ -3,10 +3,34 @@ experience_bonus:
   name: EXPERIENCE_BONUS_BASE
   descriptor: Enlightenment
   model-increment: 10000
-  min-multiplier: 0.10
-  max-multiplier: 0.20
-  rarity-multiplier: 0.5
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Discovery: 40
+    Discovery: 100
   level-experience:
-    Discovery: 10
+    Discovery: 100
+    
+  effect-min: 0.10
+  effect-max: 0.20
+
+experience_bonus_lowlevel:
+  type: EXPERIENCE_BONUS
+  name: EXPERIENCE_BONUS_LOWLEVEL
+  descriptor: Tutoring
+  model-increment: 10000
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+  base-experience:
+    Discovery: 100
+  level-experience:
+    Discovery: 125
+
+  effect-min: 0.20
+  effect-max: 0.40
+  player-while-level:
+      mode: AT_MOST
+      value: 15.0

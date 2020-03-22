@@ -65,6 +65,11 @@ material-classes:
      - IRON_HOE
      - GOLDEN_HOE
      - DIAMOND_HOE
+  bows:
+    name: bows
+    materials:
+     - BOW
+     - CROSSBOW
   wooden_tools:
     name: wood-tools
     materials:
@@ -73,6 +78,8 @@ material-classes:
      - WOODEN_AXE
      - WOODEN_SWORD
      - WOODEN_PICKAXE
+     - BOW
+     - CROSSBOW
   stone_tools:
     name: stone-tools
     materials:

@@ -1,0 +1,60 @@
+lifesteal_bows:
+  type: LIFESTEAL
+  name: LIFESTEAL_BOWS
+  descriptor: Lifesapping
+  model-increment: 10000
+
+  base-experience:
+    Valor: 100
+  level-experience:
+    Valor: 100
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+
+  effect-min: 0.10
+  effect-max: 0.20
+  conditions:
+    player-using-material:
+      material-class: bows
+lifesteal_hoes:
+  type: LIFESTEAL
+  name: LIFESTEAL_HOES
+  descriptor: Lifereaping
+  model-increment: 10000
+
+  base-experience:
+    Valor: 100
+  level-experience:
+    Valor: 100
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+
+  effect-min: 0.20
+  effect-max: 0.40
+  conditions:
+    player-using-material:
+      material-class: hoes
+
+lifesteal_cornered:
+  type: LIFESTEAL
+  name: LIFESTEAL_LOWLIFE
+  descriptor: Bloodthirsty
+  model-increment: 10000
+
+  base-experience:
+    Valor: 100
+  level-experience:
+    Valor: 100
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+
+  effect-min: 0.20
+  effect-max: 0.40
+  conditions:
+    player-while-life:
+      mode: AT_MOST
+      value: 4.0
+

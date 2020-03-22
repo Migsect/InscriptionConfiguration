@@ -3,68 +3,116 @@ block_bonus_ores:
   name: BLOCK_BONUS_ORE
   descriptor: Prospecting
   model-increment: 60000
-  min-chance: 0.01
-  max-chance: 0.10
-  rarity-multiplier: 0.5
-  target-blocks: ores
-  target-materials: pickaxes
+  
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Endurance: 40
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.02
+  effect-max: 0.10
+  conditions:
+    for-block:
+      block-class: ores
+
 block_bonus_gems:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_GEMS
   descriptor: Gemologic
   model-increment: 60000
-  min-chance: 0.02
-  max-chance: 0.20
-  rarity-multiplier: 0.5
-  target-blocks: gems
-  target-materials: pickaxes
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Endurance: 40
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.05
+  effect-max: 0.15
+  conditions:
+    for-block:
+      block-class: gems
+
 block_bonus_metals:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_METALS
   descriptor: Metallurgic
   model-increment: 100000
-  min-chance: 0.02
-  max-chance: 0.20
-  rarity-multiplier: 0.5
-  target-blocks: metals
-  target-materials: pickaxes
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Endurance: 40
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.05
+  effect-max: 0.20
+  conditions:
+    for-block:
+      block-class: metals
+
 block_bonus_wood:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_WOOD
   descriptor: Foresting
   model-increment: 150000
-  min-chance: 0.02
-  max-chance: 0.20
-  rarity-multiplier: 0.5
-  target-blocks: logs
-  target-materials: axes
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Endurance: 40
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.02
+  effect-max: 0.20
+  conditions:
+    for-block:
+      block-class: logs
+
+block_bonus_wood:
+  type: BLOCK_BONUS
+  name: BLOCK_BONUS_STONE
+  descriptor: Stonecutting
+  model-increment: 150000
+  effect-min: 0.02
+  effect-max: 0.20
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
+  base-experience:
+    Endurance: 100
+  level-experience:
+    Endurance: 100
+
+  conditions:
+    for-block:
+      block-class: stone
+
 block_bonus_crops:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_CROPS
   descriptor: Bounty
   model-increment: 90000
-  min-chance: 0.02
-  max-chance: 0.20
-  rarity-multiplier: 0.5
-  target-blocks: crops-grown
-  target-materials: anything
+
+  rarity-multiplier:
+    experience: 0.75
+    effect: 0.5
   base-experience:
-    Endurance: 40
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.02
+  effect-max: 0.20
+  conditions:
+    for-block:
+      block-class: crops-grown

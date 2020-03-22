@@ -11,9 +11,6 @@ material-drops:
   REDSTONE_ORE: 
     generator: GENERATOR_COMMON
     rate: 0.02
-  REDSTONE_ORE: 
-    generator: GENERATOR_COMMON
-    rate: 0.02
   COAL_ORE: 
     generator: GENERATOR_COMMON
     rate: 0.01

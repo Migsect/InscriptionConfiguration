@@ -3,138 +3,236 @@ damage_reduction_melee:
   name: DAMAGE_REDUCTION_MELEE
   descriptor: Parrying
   model-increment: 120000
-  min-reduction: 0.10
-  max-reduction: 0.20
+  
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   rarity-multiplier: 0.25
-  target-damage: melee
-  target-materials: anything
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.20
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: melee
+
 damage_reduction_projectile:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_PROJECTILE
   descriptor: Deflecting
   model-increment: 30000
-  min-reduction: 0.10
-  max-reduction: 0.20
-  rarity-multiplier: 0.25
-  target-damage: projectile
-  target-materials: anything
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.20
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: projectile
+
 damage_reduction_explosion:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_EXPLOSION
   descriptor: Reactive
   model-increment: 20000
-  min-reduction: 0.10
-  max-reduction: 0.20
-  rarity-multiplier: 0.25
+  
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
+  base-experience:
+    Endurance: 100
+  level-experience:
+    Endurance: 100
+
+  effect-min: 0.10
+  effect-max: 0.20
   target-damage: explosion
   target-materials: anything
-  base-experience:
-    Endurance: 40
-  level-experience:
-    Endurance: 5
+
 damage_reduction_falling:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_FALLING
   descriptor: Cushioning
   model-increment: 70000
-  min-reduction: 0.10
-  max-reduction: 0.20
-  rarity-multiplier: 0.25
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
+  base-experience:
+    Ingenuity: 100
+  level-experience:
+    Ingenuity: 100
+
+  effect-min: 0.10
+  effect-max: 0.20
   target-damage: collision
   target-materials: anything
-  base-experience:
-    Ingenuity: 25
-  level-experience:
-    Ingenuity: 5
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: collision
+
 damage_reduction_heat:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_HEAT
   descriptor: Incombustible
   model-increment: 80000
-  min-reduction: 0.10
-  max-reduction: 0.20
-  rarity-multiplier: 0.25
-  target-damage: heat
-  target-materials: anything
+  
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
-    Ingenuity: 25
+    Ingenuity: 100
   level-experience:
-    Ingenuity: 5
+    Ingenuity: 100
+
+  effect-min: 0.10
+  effect-max: 0.20
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: heat
+
 damage_reduction_falling_leather:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_FALLING_LEATHER
   descriptor: Padded
   model-increment: 70000
-  min-reduction: 0.10
-  max-reduction: 0.50
-  rarity-multiplier: 0.25
-  target-damage: collision
-  target-materials: leather-armor
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
-    Ingenuity: 25
+    Ingenuity: 100
   level-experience:
-    Ingenuity: 5
+    Ingenuity: 100
+    
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: collision
+    player-while-wearing-material:
+      material-class: leather-armor
+
 damage_reduction_melee:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_MELEE_CHAINMAIL
   descriptor: Shearless
   model-increment: 120000
-  min-reduction: 0.10
-  max-reduction: 0.50
-  rarity-multiplier: 0.25
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
+  base-experience:
+    Valor: 100
+  level-experience:
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
   target-damage: melee
   target-materials: chainmail-armor
-  base-experience:
-    Valor: 40
-  level-experience:
-    Valor: 5
+
 damage_reduction_projectile:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_PROJECTILE_IRON
   descriptor: Impenetrable
   model-increment: 30000
-  min-reduction: 0.10
-  max-reduction: 0.50
-  rarity-multiplier: 0.25
-  target-damage: projectile
-  target-materials: iron-armor
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
-    Valor: 40
+    Valor: 100
   level-experience:
-    Valor: 5
+    Valor: 100
+
+  effect-min: 0.10
+  effect-max: 0.35
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: projectile
+    player-while-wearing-material:
+      material-class: iron-armor
+
 damage_reduction_heat_gold:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_HEAT_GOLD
   descriptor: Aurumic
   model-increment: 80000
-  min-reduction: 0.10
-  max-reduction: 0.50
-  rarity-multiplier: 0.25
-  target-damage: heat
-  target-materials: golden-armor
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
     Ingenuity: 25
   level-experience:
     Ingenuity: 5
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: heat
+    player-while-wearing-material:
+      material-class: golden-armor
+
 damage_reduction_explosion:
   type: DAMAGE_REDUCTION
   name: DAMAGE_REDUCTION_EXPLOSION_DIAMOND
   descriptor: Unshatterable
   model-increment: 20000
-  min-reduction: 0.10
-  max-reduction: 0.50
-  rarity-multiplier: 0.25
-  target-damage: explosion
-  target-materials: diamond-armor
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
   base-experience:
-    Endurance: 25
+    Endurance: 100
   level-experience:
-    Endurance: 5
+    Endurance: 100
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    to-damage-taken:
+      damage-class: explosion
+    player-while-wearing-material:
+      material-class: diamond-armor
+
+damage_reduction_lowlife:
+  type: DAMAGE_REDUCTION
+  name: DAMAGE_REDUCTION_LOWLIFE
+  descriptor: Determination
+  model-increment: 20000
+
+  rarity-multiplier:
+    experience: 0.50
+    effect: 0.25
+  base-experience:
+    Endurance: 100
+  level-experience:
+    Endurance: 100
+
+  effect-min: 0.10
+  effect-max: 0.50
+  reduce-type: UNION
+  conditions:
+    player-while-life:
+      mode: AT_MOST
+      value: 4.0
