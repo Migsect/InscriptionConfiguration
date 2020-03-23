@@ -5,7 +5,7 @@ experience_bonus:
   model-increment: 10000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Discovery: 100
@@ -22,7 +22,7 @@ experience_bonus_lowlevel:
   model-increment: 10000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Discovery: 100

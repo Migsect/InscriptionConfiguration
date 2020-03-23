@@ -27,7 +27,7 @@ waypoint-plains:
   model-increment: 10000
   
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -47,7 +47,7 @@ waypoint-ocean:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -69,7 +69,7 @@ waypoint-nether:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -90,7 +90,7 @@ waypoint-artic:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -110,7 +110,7 @@ waypoint-jungle:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -129,7 +129,7 @@ waypoint-swamp:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -149,7 +149,7 @@ waypoint-astral:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -169,7 +169,7 @@ waypoint-badlands:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -189,7 +189,7 @@ waypoint-desert:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100
@@ -209,7 +209,7 @@ waypoint-mountain:
   model-increment: 10000
   
   rarity-multiplier: 
-    experience: 0.75
+    experience: 0.55
     effect: 0.50
   base-experience:
     Discovery: 100

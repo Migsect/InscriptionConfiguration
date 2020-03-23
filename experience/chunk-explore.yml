@@ -92,7 +92,7 @@ chunk-explore:
   MUSHROOM_FIELDS:
     Discovery: 100
   NETHER:
-    Discovery: 100
+    Discovery: 150
   OCEAN:
     Discovery: 100
   PLAINS:

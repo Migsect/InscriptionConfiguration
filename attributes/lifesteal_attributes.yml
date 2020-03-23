@@ -9,7 +9,7 @@ lifesteal_bows:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
 
   effect-min: 0.10
@@ -28,7 +28,7 @@ lifesteal_hoes:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
 
   effect-min: 0.20
@@ -37,7 +37,7 @@ lifesteal_hoes:
     player-using-material:
       material-class: hoes
 
-lifesteal_cornered:
+lifesteal_lowlife:
   type: LIFESTEAL
   name: LIFESTEAL_LOWLIFE
   descriptor: Bloodthirsty
@@ -48,7 +48,7 @@ lifesteal_cornered:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
 
   effect-min: 0.20

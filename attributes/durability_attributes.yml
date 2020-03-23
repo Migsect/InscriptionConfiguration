@@ -5,7 +5,7 @@ durability_wood:
   model-increment: 150000
   
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.55
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -26,7 +26,7 @@ durability_stone:
   model-increment: 60000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.55
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -47,7 +47,7 @@ durability_iron:
   model-increment: 100000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Ingenuity: 50
@@ -70,7 +70,7 @@ durability_gold:
   model-increment: 100000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Ingenuity: 100
@@ -91,7 +91,7 @@ durability_diamond:
   model-increment: 60000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Ingenuity: 100

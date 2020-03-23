@@ -5,7 +5,7 @@ damage_reduction_melee:
   model-increment: 120000
   
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   rarity-multiplier: 0.25
   base-experience:
@@ -27,7 +27,7 @@ damage_reduction_projectile:
   model-increment: 30000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Valor: 100
@@ -48,7 +48,7 @@ damage_reduction_explosion:
   model-increment: 20000
   
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Endurance: 100
@@ -67,7 +67,7 @@ damage_reduction_falling:
   model-increment: 70000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Ingenuity: 100
@@ -90,7 +90,7 @@ damage_reduction_heat:
   model-increment: 80000
   
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Ingenuity: 100
@@ -110,7 +110,7 @@ damage_reduction_falling_leather:
   descriptor: Padded
   model-increment: 70000
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Ingenuity: 100
@@ -133,7 +133,7 @@ damage_reduction_melee:
   model-increment: 120000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Valor: 100
@@ -153,7 +153,7 @@ damage_reduction_projectile:
   model-increment: 30000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Valor: 100
@@ -176,7 +176,7 @@ damage_reduction_heat_gold:
   model-increment: 80000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Ingenuity: 25
@@ -199,7 +199,7 @@ damage_reduction_explosion:
   model-increment: 20000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Endurance: 100
@@ -222,7 +222,7 @@ damage_reduction_lowlife:
   model-increment: 20000
 
   rarity-multiplier:
-    experience: 0.50
+    experience: 0.30
     effect: 0.25
   base-experience:
     Endurance: 100

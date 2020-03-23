@@ -5,7 +5,7 @@ damage_all:
   model-increment: 140000
   
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -22,7 +22,7 @@ damage_undead:
   model-increment: 140000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -42,7 +42,7 @@ damage_beast:
   model-increment: 140000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -62,7 +62,7 @@ damage_elements:
   model-increment: 140000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -82,7 +82,7 @@ damage_player:
   model-increment: 140000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -102,7 +102,7 @@ damage_swords:
   model-increment: 140000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -112,7 +112,7 @@ damage_swords:
   effect-min: 0.05
   effect-max: 0.20
   conditions:
-    player-while-using-material:
+    player-using-material:
       material-class: swords
     target-entity:
       entity-class: creatures
@@ -124,7 +124,7 @@ damage_axes:
   model-increment: 40000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -134,7 +134,7 @@ damage_axes:
   effect-min: 0.05
   effect-max: 0.20
   conditions:
-    player-while-using-material:
+    player-using-material:
       material-class: axes
     target-entity:
       entity-class: creatures
@@ -146,7 +146,7 @@ damage_nonweapons:
   model-increment: 10000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
@@ -156,7 +156,7 @@ damage_nonweapons:
   effect-min: 0.20
   effect-max: 1.00
   conditions:
-    player-while-using-material:
+    player-using-material:
       material-class: non-weapons
     target-entity:
       entity-class: creatures
@@ -168,7 +168,7 @@ damage_lowlife:
   model-increment: 10000
 
   rarity-multiplier:
-    experience: 0.75
+    experience: 0.55
     effect: 0.5
   base-experience:
     Valor: 100
