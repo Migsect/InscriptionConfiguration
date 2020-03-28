@@ -92,8 +92,8 @@ chain_break_stone:
   level-experience:
     Ingenuity: 100
 
-  effect-min: 10
-  effect-max: 20
+  effect-min: 2
+  effect-max: 10
   conditions:
     for-block:
       block-class: stone

@@ -151,3 +151,8 @@ material-classes:
     name: pumpkin
     materials: 
      - PUMPKIN
+  torches:
+    name: torches
+    materials:
+     - TORCH
+     - REDSTONE_TORCH

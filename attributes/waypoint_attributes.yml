@@ -5,8 +5,8 @@ waypoint-any:
   model-increment: 10000
 
   rarity-multiplier: 
-    experience: 0.50
-    effect: 0.25
+    experience: 0.55
+    effect: 0.50
   base-experience:
     Discovery: 100
   level-experience:

@@ -78,7 +78,7 @@ block_bonus_wood:
     for-block:
       block-class: logs
 
-block_bonus_wood:
+block_bonus_stone:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_STONE
   descriptor: Stonecutting

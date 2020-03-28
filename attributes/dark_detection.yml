@@ -1,0 +1,19 @@
+dark-detection-torch:
+  type: DARK_DETECTION
+  name: DARK_DETECTION_TORCH
+  descriptor: Dangersighting
+  model-increment: 10000
+
+  rarity-multiplier: 
+    experience: 0.30
+    effect: 0.25
+  base-experience:
+    Discovery: 100
+  level-experience:
+    Discovery: 100
+
+  effect-min: 2
+  effect-max: 5
+  conditions:
+    player-using-material:
+      material-class: torches

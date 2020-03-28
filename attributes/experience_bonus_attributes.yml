@@ -31,6 +31,7 @@ experience_bonus_lowlevel:
 
   effect-min: 0.20
   effect-max: 0.40
-  player-while-level:
-      mode: AT_MOST
-      value: 15.0
+  conditions:
+    player-while-level:
+        mode: AT_MOST
+        value: 15.0
