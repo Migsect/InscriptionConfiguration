@@ -16,21 +16,21 @@ chunk-explore:
   BIRCH_FOREST_HILLS:
     Discovery: 100
   COLD_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DARK_FOREST:
     Discovery: 100
   DARK_FOREST_HILLS:
     Discovery: 100
   DEEP_COLD_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DEEP_FROZEN_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DEEP_LUKEWARM_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DEEP_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DEEP_WARM_OCEAN:
-    Discovery: 100
+    Discovery: 50
   DESERT:
     Discovery: 100
   DESERT_HILLS:
@@ -50,7 +50,7 @@ chunk-explore:
   FOREST:
     Discovery: 100
   FROZEN_OCEAN:
-    Discovery: 100
+    Discovery: 50
   FROZEN_RIVER:
     Discovery: 100
   GIANT_SPRUCE_TAIGA:
@@ -72,7 +72,7 @@ chunk-explore:
   JUNGLE_HILLS:
     Discovery: 100
   LUKEWARM_OCEAN:
-    Discovery: 100
+    Discovery: 50
   MODIFIED_BADLANDS_PLATEAU:
     Discovery: 100
   MODIFIED_GRAVELLY_MOUNTAINS:
@@ -94,7 +94,7 @@ chunk-explore:
   NETHER:
     Discovery: 150
   OCEAN:
-    Discovery: 100
+    Discovery: 50
   PLAINS:
     Discovery: 100
   RIVER:
@@ -140,11 +140,11 @@ chunk-explore:
   TALL_BIRCH_HILLS:
     Discovery: 100
   THE_END:
-    Discovery: 100
+    Discovery: 150
   THE_VOID:
     Discovery: 100
   WARM_OCEAN:
-    Discovery: 100
+    Discovery: 50
   WOODED_BADLANDS_PLATEAU:
     Discovery: 100
   WOODED_HILLS:

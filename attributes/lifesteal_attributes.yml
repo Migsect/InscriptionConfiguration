@@ -9,7 +9,7 @@ lifesteal_bows:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
 
   effect-min: 0.10
@@ -28,7 +28,7 @@ lifesteal_hoes:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
 
   effect-min: 0.20
@@ -48,7 +48,7 @@ lifesteal_lowlife:
   level-experience:
     Valor: 100
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
 
   effect-min: 0.20

@@ -24,9 +24,10 @@ block-classes:
      - "minecraft:potatoes[age=7]"
      - "minecraft:carrots[age=7]"
      - "minecraft:beetroots[age=3]"
-     - "minecraft:sugar_cane"
      - "minecraft:melon"
      - "minecraft:pumpkin"
+     - "minecraft:sweet_berries[age=3]"
+     - "minecraft:nether_wart[age=3]"
   logs:
     name: logs
     block-data:

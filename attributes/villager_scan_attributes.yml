@@ -1,0 +1,16 @@
+villager_scan_general:
+  type: VILLAGER_SCAN
+  name: VILLAGER_SCAN_GENERAL
+  descriptor: Sourcing
+  model-increment: 10000
+
+  base-experience:
+    Discovery: 100
+  level-experience:
+    Discovery: 100
+  rarity-multiplier:
+    experience: 0.55
+    effect: 0.5
+
+  effect-min: 10
+  effect-max: 20

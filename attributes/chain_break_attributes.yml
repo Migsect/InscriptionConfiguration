@@ -5,7 +5,7 @@ chain_break_ore:
   model-increment: 100000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Ingenuity: 100
@@ -25,7 +25,7 @@ chain_break_crops:
   model-increment: 90000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Ingenuity: 100
@@ -45,7 +45,7 @@ chain_break_wood:
   model-increment: 40000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Ingenuity: 100
@@ -65,7 +65,7 @@ chain_break_leaves:
   model-increment: 150000
   
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Ingenuity: 100
@@ -85,7 +85,7 @@ chain_break_stone:
   model-increment: 150000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Ingenuity: 100

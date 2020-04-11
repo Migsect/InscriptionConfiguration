@@ -143,8 +143,11 @@ damage_reduction_melee:
   effect-min: 0.10
   effect-max: 0.50
   reduce-type: UNION
-  target-damage: melee
-  target-materials: chainmail-armor
+  conditions:
+    to-damage-taken:
+      damage-class: melee
+    player-while-wearing-material:
+      material-class: chainmail-armor
 
 damage_reduction_projectile:
   type: DAMAGE_REDUCTION

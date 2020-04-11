@@ -1,22 +1,49 @@
 experience-overflow-drops:
-  valor-overflow:
-    generator: GENERATOR_VALOR
+  Valor-Overflow-Common:
+    generator: GENERATOR_VALOR_COMMON
     experience: 
       Valor: 1000
-  endurance-overflow:
-    generator: GENERATOR_ENDURANCE
+  Valor-Overflow-Magical:
+    generator: GENERATOR_VALOR_MAGICAL
+    experience:
+      Valor: 4000
+  Valor-Overflow-Rare:
+    generator: GENERATOR_VALOR_RARE
+    experience:
+      Valor: 16000
+  Endurance-Overflow-Common:
+    generator: GENERATOR_ENDURANCE_COMMON
     experience: 
       Endurance: 1000
-  brilliance-overflow:
-    generator: GENERATOR_COMMON
-    experience: 
-      Brilliance: 1000
-  discovery-overflow:
-    generator: GENERATOR_DISCOVERY
+  Endurance-Overflow-Magical:
+    generator: GENERATOR_ENDURANCE_MAGICAL
+    experience:
+      Endurance: 4000
+  Endurance-Overflow-Rare:
+    generator: GENERATOR_ENDURANCE_RARE
+    experience:
+      Endurance: 16000
+  Discovery-Overflow-Common:
+    generator: GENERATOR_DISCOVERY_COMMON
     experience: 
       Discovery: 1000
-  ingenuity-overflow:
-    generator: GENERATOR_INGENUITY
+  Discovery-Overflow-Magical:
+    generator: GENERATOR_DISCOVERY_MAGICAL
+    experience:
+      Discovery: 4000
+  Discovery-Overflow-Rare:
+    generator: GENERATOR_DISCOVERY_RARE
+    experience:
+      Discovery: 16000
+  Ingenuity-Overflow-Common:
+    generator: GENERATOR_INGENUITY_COMMON
     experience: 
       Ingenuity: 1000
-  
+  Ingenuity-Overflow-Magical:
+    generator: GENERATOR_INGENUITY_MAGICAL
+    experience:
+      Ingenuity: 4000
+  Ingenuity-Overflow-Rare:
+    generator: GENERATOR_INGENUITY_RARE
+    experience:
+      Ingenuity: 16000

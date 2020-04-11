@@ -1,0 +1,19 @@
+planting_seeds:
+  type: PLANTING
+  name: PLANTING_SEEDS
+  descriptor: Sowing
+  model-increment: 100000
+
+  rarity-multiplier:
+    experience: 0.60
+    effect: 0.5
+  base-experience:
+    Ingenuity: 100
+  level-experience:
+    Ingenuity: 100
+
+  effect-min: 10
+  effect-max: 25
+  conditions:
+    player-using-material:
+      material-class: seeds

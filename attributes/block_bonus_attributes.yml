@@ -5,7 +5,7 @@ block_bonus_ores:
   model-increment: 60000
   
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -25,7 +25,7 @@ block_bonus_gems:
   model-increment: 60000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -45,7 +45,7 @@ block_bonus_metals:
   model-increment: 100000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -65,7 +65,7 @@ block_bonus_wood:
   model-increment: 150000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -86,7 +86,7 @@ block_bonus_stone:
   effect-min: 0.02
   effect-max: 0.20
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100
@@ -104,7 +104,7 @@ block_bonus_crops:
   model-increment: 90000
 
   rarity-multiplier:
-    experience: 0.55
+    experience: 0.60
     effect: 0.5
   base-experience:
     Endurance: 100

@@ -12,11 +12,7 @@ test_generator:
   attribute-counts:
     '1': 10
   attributes:
-    LIFESTEAL_BOWS: 10
-    LIFESTEAL_LOWLIFE: 10
-    LIFESTEAL_HOES: 10
-    DARK_DETECTION_TORCHES: 10
-    EXPERIENCE_BONUS_LOWLEVEL: 10
+    PLANTING_SEEDS: 10
 insanity_generator:
   type-name: "GENERATOR_INSANITY"
   display-name: "Test"

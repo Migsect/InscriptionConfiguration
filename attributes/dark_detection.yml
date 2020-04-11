@@ -16,4 +16,4 @@ dark-detection-torch:
   effect-max: 5
   conditions:
     player-using-material:
-      material-class: torches
+      material-class: light-blocks

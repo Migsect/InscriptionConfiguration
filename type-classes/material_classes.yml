@@ -156,3 +156,31 @@ material-classes:
     materials:
      - TORCH
      - REDSTONE_TORCH
+  light_blocks:
+    name: light-blocks
+    materials:
+     - TORCH
+     - JACK_O_LANTERN
+     - LANTERN
+     - REDSTONE_LAMP
+     - GLOWSTONE
+  seeds:
+    name: seeds
+    materials:
+     - CARROT
+     - POTATO
+     - WHEAT_SEEDS
+     - BEETROOT_SEEDS
+     - PUMPKIN_SEEDS
+     - MELON_SEEDS
+     - SWEET_BERRIES
+     - NETHER_WART
+  saplings:
+    name: saplings
+    materials:
+     - ACACIA_SAPLING
+     - BIRCH_SAPLING
+     - DARK_OAK_SAPLING
+     - JUNGLE_SAPLING
+     - OAK_SAPLING
+     - SPRUCE_SAPLING

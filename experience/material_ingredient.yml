@@ -48,17 +48,17 @@ material-ingredient:
   ACACIA_PLANKS:
     Ingenuity: 2
   OAK_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   BIRCH_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   SPRUCE_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   JUNGLE_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   DARK_OAK_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   ACACIA_LOG:
-    Ingenuity: 16
+    Ingenuity: 32
   PAPER:
     Ingenuity: 2
   WHITE_WOOL:
