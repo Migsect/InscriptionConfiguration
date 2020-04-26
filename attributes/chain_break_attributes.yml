@@ -2,7 +2,7 @@ chain_break_ore:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_ORE
   descriptor: Sapping
-  model-increment: 100000
+  model-increment: 110000
 
   rarity-multiplier:
     experience: 0.60
@@ -22,7 +22,7 @@ chain_break_crops:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_CROPS
   descriptor: Reaping
-  model-increment: 90000
+  model-increment: 160000
 
   rarity-multiplier:
     experience: 0.60
@@ -82,7 +82,7 @@ chain_break_stone:
   type: CHAIN_BREAK
   name: CHAIN_BREAK_STONE
   descriptor: Quarying
-  model-increment: 150000
+  model-increment: 110000
 
   rarity-multiplier:
     experience: 0.60

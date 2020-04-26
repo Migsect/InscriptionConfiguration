@@ -2,7 +2,7 @@ dark-detection-torch:
   type: DARK_DETECTION
   name: DARK_DETECTION_TORCH
   descriptor: Dangersighting
-  model-increment: 10000
+  model-increment: 240000
 
   rarity-multiplier: 
     experience: 0.30

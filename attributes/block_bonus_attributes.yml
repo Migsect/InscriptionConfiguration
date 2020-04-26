@@ -2,7 +2,7 @@ block_bonus_ores:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_ORE
   descriptor: Prospecting
-  model-increment: 60000
+  model-increment: 110000
   
   rarity-multiplier:
     experience: 0.60
@@ -82,7 +82,7 @@ block_bonus_stone:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_STONE
   descriptor: Stonecutting
-  model-increment: 150000
+  model-increment: 110000
   effect-min: 0.02
   effect-max: 0.20
   rarity-multiplier:
@@ -101,7 +101,7 @@ block_bonus_crops:
   type: BLOCK_BONUS
   name: BLOCK_BONUS_CROPS
   descriptor: Bounty
-  model-increment: 90000
+  model-increment: 220000
 
   rarity-multiplier:
     experience: 0.60

@@ -2,7 +2,7 @@ planting_seeds:
   type: PLANTING
   name: PLANTING_SEEDS
   descriptor: Sowing
-  model-increment: 100000
+  model-increment: 220000
 
   rarity-multiplier:
     experience: 0.60

@@ -143,7 +143,7 @@ damage_nonweapons:
   type: DAMAGE
   name: DAMAGE_NONWEAPONS
   descriptor: Bashing
-  model-increment: 10000
+  model-increment: 130000
 
   rarity-multiplier:
     experience: 0.60

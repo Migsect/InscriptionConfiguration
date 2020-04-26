@@ -2,7 +2,7 @@ lifesteal_bows:
   type: LIFESTEAL
   name: LIFESTEAL_BOWS
   descriptor: Lifesapping
-  model-increment: 10000
+  model-increment: 190000
 
   base-experience:
     Valor: 100
@@ -21,7 +21,7 @@ lifesteal_hoes:
   type: LIFESTEAL
   name: LIFESTEAL_HOES
   descriptor: Lifereaping
-  model-increment: 10000
+  model-increment: 90000
 
   base-experience:
     Valor: 100

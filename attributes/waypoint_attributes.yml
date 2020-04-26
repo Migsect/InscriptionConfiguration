@@ -2,7 +2,7 @@ waypoint-any:
   type: WAYPOINT
   name: WAYPOINT_ANY
   descriptor: Traveling
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -24,7 +24,7 @@ waypoint-plains:
   type: WAYPOINT
   name: WAYPOINT_PLAINS
   descriptor: Plainar
-  model-increment: 10000
+  model-increment: 180000
   
   rarity-multiplier: 
     experience: 0.60
@@ -44,7 +44,7 @@ waypoint-ocean:
   type: WAYPOINT
   name: WAYPOINT_AQUATIC
   descriptor: Voyaging
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -66,7 +66,7 @@ waypoint-nether:
   type: WAYPOINT
   name: WAYPOINT_NETHER
   descriptor: Portaling
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -87,7 +87,7 @@ waypoint-artic:
   type: WAYPOINT
   name: WAYPOINT_ARTIC
   descriptor: Sliding
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -107,7 +107,7 @@ waypoint-jungle:
   type: WAYPOINT
   name: WAYPOINT_JUNGLE
   descriptor: Macheting
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -126,7 +126,7 @@ waypoint-swamp:
   type: WAYPOINT
   name: WAYPOINT_SWAMP
   descriptor: Marshing
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -146,7 +146,7 @@ waypoint-astral:
   type: WAYPOINT
   name: WAYPOINT_ASTRAL
   descriptor: Astral
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -166,7 +166,7 @@ waypoint-badlands:
   type: WAYPOINT
   name: WAYPOINT_BADLANDS
   descriptor: Trekking
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -186,7 +186,7 @@ waypoint-desert:
   type: WAYPOINT
   name: WAYPOINT_DESERT
   descriptor: Hotfooting
-  model-increment: 10000
+  model-increment: 180000
 
   rarity-multiplier: 
     experience: 0.60
@@ -206,7 +206,7 @@ waypoint-mountain:
   type: WAYPOINT
   name: WAYPOINT_MOUNTAIN
   descriptor: Climbing
-  model-increment: 10000
+  model-increment: 180000
   
   rarity-multiplier: 
     experience: 0.60
@@ -226,7 +226,7 @@ waypoint-forest:
   type: WAYPOINT
   name: WAYPOINT_FOREST
   descriptor: Hiking
-  model-increment: 10000
+  model-increment: 180000
   
   rarity-multiplier: 
     experience: 0.60

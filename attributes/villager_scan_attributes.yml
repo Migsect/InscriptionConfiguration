@@ -2,7 +2,7 @@ villager_scan_general:
   type: VILLAGER_SCAN
   name: VILLAGER_SCAN_GENERAL
   descriptor: Sourcing
-  model-increment: 10000
+  model-increment: 230000
 
   base-experience:
     Discovery: 100

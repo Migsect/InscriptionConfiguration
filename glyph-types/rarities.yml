@@ -3,39 +3,39 @@ rarities:
     display: Common
     chat-color: WHITE
     rank: 0
-    model-increment: 100
+    model-increment: 1800
   MAGICAL:
     display: Magical
     chat-color: GREEN
     rank: 1
-    model-increment: 600
+    model-increment: 1900
   RARE:
     display: Rare
     chat-color: BLUE
     rank: 2
-    model-increment: 1000
+    model-increment: 2000
   EPIC:
     display: Epic 
     chat-color: DARK_PURPLE
     rank: 3
-    model-increment: 1300
+    model-increment: 2100
   MYTHIC:
     display: Mythic
     chat-color: GOLD
     rank: 4
-    model-increment: 400
+    model-increment: 2200
   LEGENDARY:
     display: Legendary
     chat-color: RED
     rank: 5
-    model-increment: 300
+    model-increment: 2300
   ANCIENT:
     display: Ancient
     chat-color: AQUA
     rank: 6
-    model-increment: 800
+    model-increment: 2400
   FORBIDDEN:
     display: Forbidden
     chat-color: MAGIC
     rank: 10
-    model-increment: 1700
+    model-increment: 2500

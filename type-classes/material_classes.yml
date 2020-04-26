@@ -184,3 +184,7 @@ material-classes:
      - JUNGLE_SAPLING
      - OAK_SAPLING
      - SPRUCE_SAPLING
+  elytras:
+    name: elytras
+    materials:
+     - ELYTRA

@@ -19,6 +19,27 @@ durability_wood:
     player-using-material:
       material-class: wood-tools
 
+durability_bows:
+  type: DURABILITY
+  name: DURABILITY_BOWS
+  descriptor: Fletching
+  model-increment: 190000
+  
+  rarity-multiplier:
+    experience: 0.60
+    effect: 0.5
+  base-experience:
+    Endurance: 100
+  level-experience:
+    Endurance: 100
+
+  effect-min: 0.10
+  effect-max: 0.30
+  reduce-type: UNION
+  conditions:
+    player-using-material:
+      material-class: bows
+
 durability_stone:
   type: DURABILITY
   name: DURABILITY_STONE

@@ -2,7 +2,7 @@ experience_bonus:
   type: EXPERIENCE_BONUS
   name: EXPERIENCE_BONUS_BASE
   descriptor: Enlightenment
-  model-increment: 10000
+  model-increment: 200000
 
   rarity-multiplier:
     experience: 0.60
@@ -19,7 +19,7 @@ experience_bonus_lowlevel:
   type: EXPERIENCE_BONUS
   name: EXPERIENCE_BONUS_LOWLEVEL
   descriptor: Tutoring
-  model-increment: 10000
+  model-increment: 200000
 
   rarity-multiplier:
     experience: 0.60
